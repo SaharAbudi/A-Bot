@@ -1,0 +1,1854 @@
+2025-08-04 00:48:14,610 [INFO] 🤖 Agron Bot is running...
+2025-08-04 00:48:19,927 [INFO] 👋 /start used by issaknife (ID: 5962330651)
+2025-08-04 00:48:21,663 [INFO] 🖱️ Button clicked: history by issaknife (ID: 5962330651)
+2025-08-04 00:48:24,535 [INFO] 🖱️ Button clicked: status by issaknife (ID: 5962330651)
+2025-08-04 00:48:24,535 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 25, in handle_callback
+    await status_command(queue)()(update, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: status_command.<locals>._command() missing 2 required positional arguments: 'update' and 'context'
+2025-08-04 00:50:30,794 [INFO] 🤖 Agron Bot is running...
+2025-08-04 00:50:42,969 [INFO] 👋 /start used by issaknife (ID: 5962330651)
+2025-08-04 00:50:45,118 [INFO] 🖱️ Button clicked: status by issaknife (ID: 5962330651)
+2025-08-04 00:50:45,118 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 25, in handle_callback
+    await status_command(queue)(update, context)  # ✅ תיקון כאן
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 70, in _command
+    await update.message.reply_text(NO_QUEUE_MESSAGE, reply_markup=build_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-08-04 00:52:11,819 [INFO] 👋 /start used by issaknife (ID: 5962330651)
+2025-08-04 00:52:13,330 [INFO] 🖱️ Button clicked: status by issaknife (ID: 5962330651)
+2025-08-04 00:52:13,330 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 25, in handle_callback
+    await status_command(queue)(update, context)  # ✅ תיקון כאן
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 70, in _command
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-08-04 00:53:44,451 [INFO] 🤖 Agron Bot is running...
+2025-08-04 00:53:52,394 [INFO] 👋 /start used by issaknife (ID: 5962330651)
+2025-08-04 00:53:54,334 [INFO] 🖱️ Button clicked: status by issaknife (ID: 5962330651)
+2025-08-04 00:53:54,536 [INFO] 📊 /status: issaknife (ID: 5962330651) is not in the queue.
+2025-08-04 00:54:00,437 [INFO] 🖱️ Button clicked: cancel by issaknife (ID: 5962330651)
+2025-08-04 00:54:00,761 [INFO] 🛑 /cancel: issaknife (ID: 5962330651) marked for cancellation (not found in queue).
+2025-08-04 00:54:03,537 [INFO] 🖱️ Button clicked: stats by issaknife (ID: 5962330651)
+2025-08-04 00:54:03,754 [INFO] 📈 /stats used by issaknife (ID: 5962330651): {'total_runs': 18, 'avg_runtime': 24.543529411764705, 'total_cancelled': 1}
+2025-08-04 00:54:11,763 [INFO] 🖱️ Button clicked: errors by issaknife (ID: 5962330651)
+2025-08-04 00:54:12,118 [INFO] 📤 Sent error log to issaknife (ID: 5962330651)
+2025-08-04 00:57:55,287 [INFO] 🤖 Agron Bot is running...
+2025-08-04 00:57:55,739 [INFO] 🚀 Bot started at 2025-08-04T00:57:55.739387
+2025-08-04 00:58:09,507 [INFO] 👋 /start used by issaknife (ID: 5962330651)
+2025-08-04 00:58:11,844 [INFO] 🖱️ Button clicked: cancel by issaknife (ID: 5962330651)
+2025-08-04 00:58:12,056 [INFO] 🛑 /cancel: issaknife (ID: 5962330651) marked for cancellation (not found in queue).
+2025-08-04 01:02:09,528 [INFO] 🤖 Agron Bot is running...
+2025-08-04 01:02:10,113 [INFO] 🚀 Bot started at 2025-08-04T01:02:10.110219
+2025-08-04 01:02:15,851 [INFO] 🖱️ Button clicked: status by issaknife (ID: 5962330651)
+2025-08-04 01:02:16,165 [INFO] 📊 /status: issaknife (ID: 5962330651) is not in the queue.
+2025-08-04 01:02:29,200 [INFO] 🖱️ Button clicked: errors by issaknife (ID: 5962330651)
+2025-08-04 01:02:29,549 [INFO] 📤 Sent error log to issaknife (ID: 5962330651)
+2025-08-04 01:05:11,885 [INFO] 🤖 Agron Bot is running...
+2025-08-04 01:05:12,322 [INFO] 🚀 Bot started at 2025-08-04T01:05:12.322818
+2025-08-04 01:05:30,764 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 01:05:31,131 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 01:05:31,145 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:05:31,177 [INFO] ✅ Agron executable launched.
+2025-08-04 01:05:34,422 [INFO] 🔑 License entered.
+2025-08-04 01:05:34,425 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 01:05:34,534 [INFO] 🪟 Focused on Agron window.
+2025-08-04 01:05:34,676 [INFO] 🔎 Clicked on Filter.
+2025-08-04 01:05:38,804 [INFO] 🔍 Entered ID 207388604 and clicked Search.
+2025-08-04 01:05:41,921 [INFO] 🖱️ Double-clicked result.
+2025-08-04 01:05:44,601 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 01:05:44,623 [INFO] 💧 Watermark added.
+2025-08-04 01:05:44,913 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 01:05:46,023 [INFO] ❌ Closed window 1/3
+2025-08-04 01:05:47,138 [INFO] ❌ Closed window 2/3
+2025-08-04 01:05:48,242 [INFO] ❌ Closed window 3/3
+2025-08-04 01:05:48,244 [INFO] ⏱️ Execution completed in 17.11 seconds
+2025-08-04 01:05:48,982 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 01:05:48,983 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 17.11 sec
+2025-08-04 01:06:14,766 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 01:06:15,044 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 01:06:15,065 [INFO] ✅ Agron executable launched.
+2025-08-04 01:06:15,075 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:06:18,302 [INFO] 🔑 License entered.
+2025-08-04 01:06:27,928 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 01:06:27,943 [INFO] 🪟 Focused on Agron window.
+2025-08-04 01:06:28,088 [INFO] 🔎 Clicked on Filter.
+2025-08-04 01:06:32,319 [INFO] 🔍 Entered ID 207388604 and clicked Search.
+2025-08-04 01:06:35,526 [INFO] 🖱️ Double-clicked result.
+2025-08-04 01:06:38,141 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 01:06:38,192 [INFO] 💧 Watermark added.
+2025-08-04 01:06:38,241 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 01:06:39,353 [INFO] ❌ Closed window 1/3
+2025-08-04 01:06:40,455 [INFO] ❌ Closed window 2/3
+2025-08-04 01:06:41,558 [INFO] ❌ Closed window 3/3
+2025-08-04 01:06:41,558 [INFO] ⏱️ Execution completed in 26.51 seconds
+2025-08-04 01:06:42,136 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 01:06:42,138 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 26.51 sec
+2025-08-04 01:07:07,199 [INFO] 🖱️ Button clicked: history by issaknife (ID: 5962330651)
+2025-08-04 01:16:06,026 [INFO] 🤖 Agron Bot is running...
+2025-08-04 01:16:06,517 [INFO] 🚀 Bot started at 2025-08-04T01:16:06.517774
+2025-08-04 01:16:19,645 [INFO] 👋 /start used by issaknife (ID: 5962330651)
+2025-08-04 01:16:21,506 [INFO] 📊 /status: issaknife (ID: 5962330651) is not in the queue.
+2025-08-04 01:16:25,446 [INFO] 🛑 /cancel: issaknife (ID: 5962330651) marked for cancellation (not found in queue).
+2025-08-04 01:16:27,353 [INFO] 🛑 /cancel: issaknife (ID: 5962330651) marked for cancellation (not found in queue).
+2025-08-04 01:16:34,363 [INFO] 📈 /stats used by issaknife (ID: 5962330651): {'total_runs': 20, 'avg_runtime': 24.25578947368421, 'total_cancelled': 1}
+2025-08-04 01:16:40,693 [INFO] 📤 Sent error log to issaknife (ID: 5962330651)
+2025-08-04 01:20:08,498 [INFO] 🖱️ Button clicked: errors by issaknife (ID: 5962330651)
+2025-08-04 01:20:08,729 [INFO] 📤 Sent error log to issaknife (ID: 5962330651)
+2025-08-04 01:20:18,832 [INFO] 👋 /start used by issaknife (ID: 5962330651)
+2025-08-04 01:27:38,449 [INFO] 🤖 Agron Bot is running...
+2025-08-04 01:27:39,063 [INFO] 🚀 Bot started at 2025-08-04T01:27:39.063398
+2025-08-04 01:27:53,043 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 01:27:53,487 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 01:27:53,509 [INFO] ✅ Agron executable launched.
+2025-08-04 01:27:53,539 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:27:55,043 [INFO] ✅ Found window: רישום
+2025-08-04 01:27:56,307 [INFO] 🔑 License entered.
+2025-08-04 01:28:05,400 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 01:28:05,406 [INFO] 🪟 Focused on Agron window.
+2025-08-04 01:28:08,647 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 01:28:08,734 [INFO] 💧 Watermark added.
+2025-08-04 01:28:09,325 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 01:28:09,977 [INFO] ❌ Closed window 1/3
+2025-08-04 01:28:10,590 [INFO] ❌ Closed window 2/3
+2025-08-04 01:28:11,204 [INFO] ❌ Closed window 3/3
+2025-08-04 01:28:11,206 [INFO] ⏱️ Execution completed in 17.72 seconds
+2025-08-04 01:28:11,894 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 01:28:12,117 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 01:28:12,117 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 17.72 sec
+2025-08-04 01:28:20,066 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 44, in handle_callback
+    await query.edit_message_text("❓ Unknown action.")
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_callbackquery.py", line 241, in edit_message_text
+    return await self.message.edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_message.py", line 2526, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 1482, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 381, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 3381, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 507, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 559, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 469, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 325, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 497, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no text in the message to edit
+2025-08-04 01:28:39,311 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 44, in handle_callback
+    await query.edit_message_text("❓ Unknown action.")
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_callbackquery.py", line 241, in edit_message_text
+    return await self.message.edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_message.py", line 2526, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 1482, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 381, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 3381, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 507, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 559, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 469, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 325, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 497, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no text in the message to edit
+2025-08-04 01:42:12,247 [INFO] 👋 /start used by issaknife (ID: 5962330651)
+2025-08-04 01:42:14,450 [INFO] 📊 /status: issaknife (ID: 5962330651) is not in the queue.
+2025-08-04 01:44:02,133 [INFO] 🤖 Agron Bot is running...
+2025-08-04 01:44:02,228 [ERROR] ❌ Unexpected error occurred in main()
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 10, in map_exceptions
+    yield
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\backends\asyncio.py", line 111, in connect_tcp
+    stream: anyio.abc.ByteStream = await anyio.connect_tcp(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_core\_sockets.py", line 208, in connect_tcp
+    gai_res = await getaddrinfo(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_core\_sockets.py", line 584, in getaddrinfo
+    gai_res = await get_async_backend().getaddrinfo(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_backends\_asyncio.py", line 2692, in getaddrinfo
+    return await get_running_loop().getaddrinfo(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 864, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 961, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection.py", line 86, in handle_async_request
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\backends\auto.py", line 29, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\backends\asyncio.py", line 109, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_httpxrequest.py", line 216, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1530, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1617, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1645, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1682, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1719, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 352, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 96, in main
+    app.run_polling()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 727, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 921, in __run
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 910, in __run
+    loop.run_until_complete(self.initialize())
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 650, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 399, in initialize
+    await self.bot.initialize()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 271, in initialize
+    await super().initialize()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 591, in initialize
+    await self.get_me()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 1706, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 381, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 736, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 469, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 325, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 497, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 291, in _request_wrapper
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 277, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_httpxrequest.py", line 240, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-08-04 01:44:02,255 [ERROR] ❌ Failed to notify developer: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-08-04 01:45:08,717 [INFO] 🤖 Agron Bot is running...
+2025-08-04 01:45:08,803 [ERROR] ❌ Unexpected error occurred in main()
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 10, in map_exceptions
+    yield
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\backends\asyncio.py", line 111, in connect_tcp
+    stream: anyio.abc.ByteStream = await anyio.connect_tcp(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_core\_sockets.py", line 208, in connect_tcp
+    gai_res = await getaddrinfo(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_core\_sockets.py", line 584, in getaddrinfo
+    gai_res = await get_async_backend().getaddrinfo(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_backends\_asyncio.py", line 2692, in getaddrinfo
+    return await get_running_loop().getaddrinfo(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 864, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 961, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection.py", line 86, in handle_async_request
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\backends\auto.py", line 29, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\backends\asyncio.py", line 109, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_httpxrequest.py", line 216, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1530, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1617, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1645, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1682, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1719, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 352, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 96, in main
+    app.run_polling()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 727, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 921, in __run
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 910, in __run
+    loop.run_until_complete(self.initialize())
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 650, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 399, in initialize
+    await self.bot.initialize()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 271, in initialize
+    await super().initialize()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 591, in initialize
+    await self.get_me()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 1706, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 381, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 736, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 469, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 325, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 497, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 291, in _request_wrapper
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 277, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_httpxrequest.py", line 240, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-08-04 01:45:08,846 [ERROR] ❌ Failed to notify developer: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-08-04 01:46:19,526 [INFO] 🤖 Agron Bot is running...
+2025-08-04 01:46:20,029 [INFO] 🚀 Bot started at 2025-08-04T01:46:20.029851
+2025-08-04 01:46:20,436 [INFO] 👋 /start used by issaknife (ID: 5962330651)
+2025-08-04 01:46:20,666 [INFO] 📊 /status: issaknife (ID: 5962330651) is not in the queue.
+2025-08-04 01:46:30,240 [INFO] 🖱️ Button clicked: stats by issaknife (ID: 5962330651)
+2025-08-04 01:46:30,466 [INFO] 📈 /stats used by issaknife (ID: 5962330651): {'total_runs': 21, 'avg_runtime': 23.929, 'total_cancelled': 1}
+2025-08-04 01:46:34,701 [INFO] 🖱️ Button clicked: errors by issaknife (ID: 5962330651)
+2025-08-04 01:46:35,060 [INFO] 📤 Sent error log to issaknife (ID: 5962330651)
+2025-08-04 01:46:45,739 [WARNING] ❌ Invalid ID received from issaknife (ID: 5962330651): '9363829'
+2025-08-04 01:46:48,754 [INFO] 🔄 Started processing ID '383920106' from issaknife (ID: 5962330651)
+2025-08-04 01:46:48,863 [INFO] 📥 ID '383920106' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:46:49,043 [INFO] ▶️ Running Agron for ID: 383920106
+2025-08-04 01:46:49,089 [ERROR] ❌ Failed to launch Agron: [WinError 740] The requested operation requires elevation
+2025-08-04 01:46:49,092 [ERROR] ❌ Error while processing ID '383920106' for issaknife (ID: 5962330651): [WinError 740] The requested operation requires elevation
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 74, in run_agron_and_capture
+    subprocess.Popen(exe_path, cwd=agr_path)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1022, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1491, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 740] The requested operation requires elevation
+2025-08-04 01:46:55,724 [INFO] 🔄 Started processing ID '383839296' from issaknife (ID: 5962330651)
+2025-08-04 01:46:56,449 [INFO] 📥 ID '383839296' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:46:56,456 [INFO] ▶️ Running Agron for ID: 383839296
+2025-08-04 01:46:56,473 [ERROR] ❌ Failed to launch Agron: [WinError 740] The requested operation requires elevation
+2025-08-04 01:46:56,501 [ERROR] ❌ Error while processing ID '383839296' for issaknife (ID: 5962330651): [WinError 740] The requested operation requires elevation
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 74, in run_agron_and_capture
+    subprocess.Popen(exe_path, cwd=agr_path)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1022, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1491, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 740] The requested operation requires elevation
+2025-08-04 01:47:04,967 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 01:47:05,283 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:47:05,306 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 01:47:05,327 [ERROR] ❌ Failed to launch Agron: [WinError 740] The requested operation requires elevation
+2025-08-04 01:47:05,329 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): [WinError 740] The requested operation requires elevation
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 74, in run_agron_and_capture
+    subprocess.Popen(exe_path, cwd=agr_path)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1022, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1491, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 740] The requested operation requires elevation
+2025-08-04 01:47:09,166 [INFO] 🔄 Started processing ID '12340472' from issaknife (ID: 5962330651)
+2025-08-04 01:47:09,263 [INFO] 📥 ID '12340472' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:47:09,285 [ERROR] ❌ Error while processing ID '12340472' for issaknife (ID: 5962330651): ❌ Invalid ID number. Must be 9 digits.
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 65, in run_agron_and_capture
+    raise ValueError("❌ Invalid ID number. Must be 9 digits.")
+ValueError: ❌ Invalid ID number. Must be 9 digits.
+2025-08-04 01:47:13,504 [INFO] 🛑 /cancel: issaknife (ID: 5962330651) marked for cancellation (not found in queue).
+2025-08-04 01:47:19,488 [INFO] ⛔ Skipping ID '207386604' from issaknife (ID: 5962330651) – cancel requested before start.
+2025-08-04 01:47:19,820 [INFO] 📥 ID '207386604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:47:28,344 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 01:47:28,596 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 01:47:28,618 [ERROR] ❌ Failed to launch Agron: [WinError 740] The requested operation requires elevation
+2025-08-04 01:47:28,618 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): [WinError 740] The requested operation requires elevation
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 74, in run_agron_and_capture
+    subprocess.Popen(exe_path, cwd=agr_path)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1022, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1491, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 740] The requested operation requires elevation
+2025-08-04 01:47:28,622 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:49:30,965 [INFO] 🤖 Agron Bot is running...
+2025-08-04 01:49:31,788 [INFO] 🚀 Bot started at 2025-08-04T01:49:31.788727
+2025-08-04 01:49:44,651 [INFO] 🔄 Started processing ID '12926280' from issaknife (ID: 5962330651)
+2025-08-04 01:49:45,008 [INFO] 📥 ID '12926280' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:49:45,029 [ERROR] ❌ Error while processing ID '12926280' for issaknife (ID: 5962330651): ❌ Invalid ID number. Must be 9 digits.
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 65, in run_agron_and_capture
+    raise ValueError("❌ Invalid ID number. Must be 9 digits.")
+ValueError: ❌ Invalid ID number. Must be 9 digits.
+2025-08-04 01:49:52,730 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 01:49:53,015 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 01:49:53,029 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:49:53,077 [INFO] ✅ Agron executable launched.
+2025-08-04 01:49:54,597 [INFO] ✅ Found window: רישום
+2025-08-04 01:49:55,942 [INFO] 🔑 License entered.
+2025-08-04 01:50:06,305 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 01:50:06,317 [INFO] 🪟 Focused on Agron window.
+2025-08-04 01:50:09,751 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 01:50:09,802 [INFO] 💧 Watermark added.
+2025-08-04 01:50:10,281 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 01:50:10,953 [INFO] ❌ Closed window 1/3
+2025-08-04 01:50:11,578 [INFO] ❌ Closed window 2/3
+2025-08-04 01:50:12,211 [INFO] ❌ Closed window 3/3
+2025-08-04 01:50:12,212 [INFO] ⏱️ Execution completed in 19.20 seconds
+2025-08-04 01:50:12,823 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 01:50:12,999 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 01:50:13,001 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 19.20 sec
+2025-08-04 01:50:20,664 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 01:50:20,903 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:50:20,928 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 01:50:20,962 [INFO] ✅ Agron executable launched.
+2025-08-04 01:50:22,991 [INFO] ✅ Found window: רישום
+2025-08-04 01:50:24,419 [INFO] 🔑 License entered.
+2025-08-04 01:50:35,610 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 01:50:35,614 [WARNING] ⚠️ Could not focus window: Error code from Windows: 0 - The operation completed successfully.
+2025-08-04 01:50:38,677 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 01:50:38,733 [INFO] 💧 Watermark added.
+2025-08-04 01:50:38,783 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 01:50:39,406 [INFO] ❌ Closed window 1/3
+2025-08-04 01:50:40,014 [INFO] ❌ Closed window 2/3
+2025-08-04 01:50:40,624 [INFO] ❌ Closed window 3/3
+2025-08-04 01:50:40,626 [INFO] ⏱️ Execution completed in 19.70 seconds
+2025-08-04 01:50:41,206 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 01:50:41,417 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 01:50:41,417 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 19.70 sec
+2025-08-04 01:52:28,452 [INFO] 🤖 Agron Bot is running...
+2025-08-04 01:52:28,838 [INFO] 🚀 Bot started at 2025-08-04T01:52:28.838567
+2025-08-04 01:52:39,793 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 01:52:40,407 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:52:40,415 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 01:52:40,444 [INFO] ✅ Agron executable launched.
+2025-08-04 01:52:41,972 [INFO] ✅ Found window: רישום
+2025-08-04 01:52:44,215 [INFO] 🔑 License entered.
+2025-08-04 01:52:52,897 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 01:52:52,906 [INFO] 🪟 Focused on Agron window.
+2025-08-04 01:52:59,163 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 01:53:00,274 [INFO] 💧 Watermark added.
+2025-08-04 01:53:01,644 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 01:53:02,757 [INFO] ❌ Closed window 1/3
+2025-08-04 01:53:03,867 [INFO] ❌ Closed window 2/3
+2025-08-04 01:53:04,981 [INFO] ❌ Closed window 3/3
+2025-08-04 01:53:05,989 [INFO] ⏱️ Execution completed in 25.57 seconds
+2025-08-04 01:53:06,531 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 01:53:06,710 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 01:53:06,714 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 25.57 sec
+2025-08-04 01:54:07,520 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 01:54:08,102 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:54:08,105 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 01:54:08,114 [INFO] ✅ Agron executable launched.
+2025-08-04 01:54:09,634 [INFO] ✅ Found window: רישום
+2025-08-04 01:54:11,895 [INFO] 🔑 License entered.
+2025-08-04 01:54:21,031 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 01:54:21,038 [INFO] 🪟 Focused on Agron window.
+2025-08-04 01:54:27,329 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 01:54:28,389 [INFO] 💧 Watermark added.
+2025-08-04 01:54:29,504 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 01:54:30,628 [INFO] ❌ Closed window 1/3
+2025-08-04 01:54:31,734 [INFO] ❌ Closed window 2/3
+2025-08-04 01:54:32,847 [INFO] ❌ Closed window 3/3
+2025-08-04 01:54:33,849 [INFO] ⏱️ Execution completed in 25.74 seconds
+2025-08-04 01:54:34,338 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 01:54:34,473 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 01:54:34,476 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 25.74 sec
+2025-08-04 01:56:09,856 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 01:56:10,101 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 01:56:10,123 [INFO] ✅ Agron executable launched.
+2025-08-04 01:56:10,147 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:56:11,654 [INFO] ✅ Found window: רישום
+2025-08-04 01:56:14,128 [INFO] 🔑 License entered.
+2025-08-04 01:56:22,736 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 01:56:22,764 [INFO] 🪟 Focused on Agron window.
+2025-08-04 01:56:29,130 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 01:56:30,216 [INFO] 💧 Watermark added.
+2025-08-04 01:56:31,268 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 01:56:32,382 [INFO] ❌ Closed window 1/3
+2025-08-04 01:56:33,495 [INFO] ❌ Closed window 2/3
+2025-08-04 01:56:34,606 [INFO] ❌ Closed window 3/3
+2025-08-04 01:56:35,610 [INFO] ⏱️ Execution completed in 25.51 seconds
+2025-08-04 01:56:36,431 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 01:56:36,639 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 01:56:36,646 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 25.51 sec
+2025-08-04 01:57:07,474 [INFO] 🤖 Agron Bot is running...
+2025-08-04 01:57:07,897 [INFO] 🚀 Bot started at 2025-08-04T01:57:07.897630
+2025-08-04 01:57:13,870 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 01:57:14,129 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 01:57:14,145 [INFO] ✅ Agron executable launched.
+2025-08-04 01:57:14,154 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:57:15,687 [INFO] ✅ Found window: רישום
+2025-08-04 01:57:17,970 [INFO] 🔑 License entered.
+2025-08-04 01:57:25,043 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 01:57:25,043 [INFO] 🪟 Focused on Agron window.
+2025-08-04 01:57:25,053 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 01:57:55,089 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 01:57:56,128 [INFO] 💧 Watermark added.
+2025-08-04 01:57:57,217 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 01:57:58,321 [INFO] ❌ Closed window 1/3
+2025-08-04 01:57:59,437 [INFO] ❌ Closed window 2/3
+2025-08-04 01:58:00,545 [INFO] ❌ Closed window 3/3
+2025-08-04 01:58:01,549 [INFO] ⏱️ Execution completed in 47.42 seconds
+2025-08-04 01:58:02,242 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 01:58:02,519 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 01:58:02,519 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 47.42 sec
+2025-08-04 01:58:21,647 [INFO] 🤖 Agron Bot is running...
+2025-08-04 01:58:22,039 [INFO] 🚀 Bot started at 2025-08-04T01:58:22.039853
+2025-08-04 01:58:28,890 [INFO] 🔄 Started processing ID '207388605' from issaknife (ID: 5962330651)
+2025-08-04 01:58:29,212 [INFO] ▶️ Running Agron for ID: 207388605
+2025-08-04 01:58:29,212 [INFO] 📥 ID '207388605' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:58:29,239 [INFO] ✅ Agron executable launched.
+2025-08-04 01:58:30,761 [INFO] ✅ Found window: רישום
+2025-08-04 01:58:33,238 [INFO] 🔑 License entered.
+2025-08-04 01:58:40,393 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 01:58:40,397 [INFO] 🪟 Focused on Agron window.
+2025-08-04 01:58:40,397 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 01:58:55,508 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388605.png
+2025-08-04 01:58:56,637 [INFO] 💧 Watermark added.
+2025-08-04 01:58:57,912 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388605.pdf
+2025-08-04 01:58:59,026 [INFO] ❌ Closed window 1/3
+2025-08-04 01:59:00,131 [INFO] ❌ Closed window 2/3
+2025-08-04 01:59:01,248 [INFO] ❌ Closed window 3/3
+2025-08-04 01:59:02,306 [INFO] ⏱️ Execution completed in 33.09 seconds
+2025-08-04 01:59:02,826 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 01:59:03,160 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 01:59:03,161 [INFO] ✅ Completed ID '207388605' for issaknife (ID: 5962330651) in 33.09 sec
+2025-08-04 01:59:41,431 [INFO] 🤖 Agron Bot is running...
+2025-08-04 01:59:41,820 [INFO] 🚀 Bot started at 2025-08-04T01:59:41.820379
+2025-08-04 01:59:48,413 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 01:59:48,782 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 01:59:48,787 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 01:59:48,804 [INFO] ✅ Agron executable launched.
+2025-08-04 01:59:50,340 [INFO] ✅ Found window: רישום
+2025-08-04 01:59:52,285 [INFO] 🔑 License entered.
+2025-08-04 02:00:01,652 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 02:00:01,659 [INFO] 🪟 Focused on Agron window.
+2025-08-04 02:00:01,674 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 02:00:10,783 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 02:00:11,556 [INFO] 💧 Watermark added.
+2025-08-04 02:00:12,475 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 02:00:13,281 [INFO] ❌ Closed window 1/3
+2025-08-04 02:00:14,121 [INFO] ❌ Closed window 2/3
+2025-08-04 02:00:14,931 [INFO] ❌ Closed window 3/3
+2025-08-04 02:00:15,632 [INFO] ⏱️ Execution completed in 26.84 seconds
+2025-08-04 02:00:16,254 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 02:00:16,516 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 02:00:16,516 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 26.84 sec
+2025-08-04 02:00:35,599 [INFO] 🤖 Agron Bot is running...
+2025-08-04 02:00:36,010 [INFO] 🚀 Bot started at 2025-08-04T02:00:36.010682
+2025-08-04 02:00:44,351 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 02:00:44,662 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 02:00:44,665 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 02:00:44,692 [INFO] ✅ Agron executable launched.
+2025-08-04 02:00:46,233 [INFO] ✅ Found window: רישום
+2025-08-04 02:00:48,001 [INFO] 🔑 License entered.
+2025-08-04 02:00:57,644 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 02:00:57,648 [INFO] 🪟 Focused on Agron window.
+2025-08-04 02:00:57,655 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 02:01:05,877 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 02:01:06,476 [INFO] 💧 Watermark added.
+2025-08-04 02:01:07,178 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 02:01:07,781 [INFO] ❌ Closed window 1/3
+2025-08-04 02:01:08,390 [INFO] ❌ Closed window 2/3
+2025-08-04 02:01:08,996 [INFO] ❌ Closed window 3/3
+2025-08-04 02:01:09,497 [INFO] ⏱️ Execution completed in 24.83 seconds
+2025-08-04 02:01:10,182 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 02:01:10,421 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 02:01:10,423 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 24.83 sec
+2025-08-04 02:01:33,750 [INFO] 🤖 Agron Bot is running...
+2025-08-04 02:01:34,181 [INFO] 🚀 Bot started at 2025-08-04T02:01:34.181041
+2025-08-04 02:01:39,346 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 02:01:39,601 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 02:01:39,622 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 02:01:39,638 [INFO] ✅ Agron executable launched.
+2025-08-04 02:01:41,162 [INFO] ✅ Found window: רישום
+2025-08-04 02:01:43,089 [INFO] 🔑 License entered.
+2025-08-04 02:01:51,940 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 02:01:51,952 [INFO] 🪟 Focused on Agron window.
+2025-08-04 02:01:51,959 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 02:02:01,042 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 02:02:01,819 [INFO] 💧 Watermark added.
+2025-08-04 02:02:02,733 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 02:02:03,541 [INFO] ❌ Closed window 1/3
+2025-08-04 02:02:04,352 [INFO] ❌ Closed window 2/3
+2025-08-04 02:02:05,156 [INFO] ❌ Closed window 3/3
+2025-08-04 02:02:05,865 [INFO] ⏱️ Execution completed in 26.24 seconds
+2025-08-04 02:02:06,769 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 02:02:07,182 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 02:02:07,182 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 26.24 sec
+2025-08-04 02:03:15,595 [INFO] 🤖 Agron Bot is running...
+2025-08-04 02:03:16,073 [INFO] 🚀 Bot started at 2025-08-04T02:03:16.073748
+2025-08-04 02:03:24,088 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 02:03:24,346 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 02:03:24,363 [INFO] ✅ Agron executable launched.
+2025-08-04 02:03:24,377 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 02:03:25,892 [INFO] ✅ Found window: רישום
+2025-08-04 02:03:28,008 [INFO] 🔑 License entered.
+2025-08-04 02:03:36,450 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 02:03:36,461 [INFO] 🪟 Focused on Agron window.
+2025-08-04 02:03:36,462 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 02:03:45,861 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 02:03:46,734 [INFO] 💧 Watermark added.
+2025-08-04 02:03:47,757 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 02:03:48,667 [INFO] ❌ Closed window 1/3
+2025-08-04 02:03:49,570 [INFO] ❌ Closed window 2/3
+2025-08-04 02:03:50,472 [INFO] ❌ Closed window 3/3
+2025-08-04 02:03:51,283 [INFO] ⏱️ Execution completed in 26.94 seconds
+2025-08-04 02:03:51,809 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 02:03:51,981 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 02:03:51,981 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 26.94 sec
+2025-08-04 02:04:11,211 [INFO] 🤖 Agron Bot is running...
+2025-08-04 02:04:11,650 [INFO] 🚀 Bot started at 2025-08-04T02:04:11.650030
+2025-08-04 02:04:21,554 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 02:04:21,842 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 02:04:21,866 [INFO] ✅ Agron executable launched.
+2025-08-04 02:04:21,872 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 02:04:23,403 [INFO] ✅ Found window: רישום
+2025-08-04 02:04:25,642 [INFO] 🔑 License entered.
+2025-08-04 02:04:34,794 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 02:04:34,810 [INFO] 🪟 Focused on Agron window.
+2025-08-04 02:04:34,824 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 02:04:45,013 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 02:04:46,093 [INFO] 💧 Watermark added.
+2025-08-04 02:04:47,281 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 02:04:48,385 [INFO] ❌ Closed window 1/3
+2025-08-04 02:04:49,513 [INFO] ❌ Closed window 2/3
+2025-08-04 02:04:50,619 [INFO] ❌ Closed window 3/3
+2025-08-04 02:04:51,631 [INFO] ⏱️ Execution completed in 29.79 seconds
+2025-08-04 02:04:52,549 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 02:04:52,907 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 02:04:52,909 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 29.79 sec
+2025-08-04 02:10:33,912 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 02:10:34,184 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 02:10:34,198 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 02:10:34,216 [INFO] ✅ Agron executable launched.
+2025-08-04 02:10:35,741 [INFO] ✅ Found window: רישום
+2025-08-04 02:10:37,978 [INFO] 🔑 License entered.
+2025-08-04 02:10:46,129 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 02:10:46,488 [INFO] 🪟 Focused on Agron window.
+2025-08-04 02:10:46,490 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 02:10:57,103 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 02:10:58,218 [INFO] 💧 Watermark added.
+2025-08-04 02:10:59,414 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 02:11:00,521 [INFO] ❌ Closed window 1/3
+2025-08-04 02:11:01,647 [INFO] ❌ Closed window 2/3
+2025-08-04 02:11:02,750 [INFO] ❌ Closed window 3/3
+2025-08-04 02:11:03,755 [INFO] ⏱️ Execution completed in 29.56 seconds
+2025-08-04 02:11:04,326 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 02:11:04,573 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 02:11:04,573 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 29.56 sec
+2025-08-04 02:11:28,433 [INFO] 🖱️ Button clicked: history by issaknife (ID: 5962330651)
+2025-08-04 02:11:33,036 [INFO] 🖱️ Button clicked: errors by issaknife (ID: 5962330651)
+2025-08-04 02:11:33,334 [INFO] 📤 Sent error log to issaknife (ID: 5962330651)
+2025-08-04 18:19:27,010 [INFO] 🤖 Agron Bot is running...
+2025-08-04 18:19:27,543 [INFO] 🚀 Bot started at 2025-08-04T18:19:27.543228
+2025-08-04 18:23:33,162 [INFO] 🤖 Agron Bot is running...
+2025-08-04 18:23:33,628 [INFO] 🚀 Bot started at 2025-08-04T18:23:33.628585
+2025-08-04 18:25:42,872 [INFO] 🤖 Agron Bot is running...
+2025-08-04 18:25:42,872 [ERROR] ❌ Unexpected error occurred in main()
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 100, in main
+    app.run_polling(on_startup=startup)
+TypeError: Application.run_polling() got an unexpected keyword argument 'on_startup'
+2025-08-04 18:27:30,006 [INFO] 🤖 Agron Bot is running...
+2025-08-04 18:27:30,463 [INFO] 🚀 Bot started at 2025-08-04T18:27:30.463804
+2025-08-04 18:28:53,123 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 18:28:53,417 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 18:28:53,430 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 18:28:53,508 [ERROR] ❌ Failed to launch Agron: [WinError 740] The requested operation requires elevation
+2025-08-04 18:28:53,508 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): [WinError 740] The requested operation requires elevation
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 188, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 88, in run_agron_and_capture
+    subprocess.Popen(exe_path, cwd=agr_path)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1022, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1491, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 740] The requested operation requires elevation
+2025-08-04 18:29:00,545 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 18:29:00,820 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 18:29:00,839 [ERROR] ❌ Failed to launch Agron: [WinError 740] The requested operation requires elevation
+2025-08-04 18:29:00,852 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): [WinError 740] The requested operation requires elevation
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 188, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 88, in run_agron_and_capture
+    subprocess.Popen(exe_path, cwd=agr_path)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1022, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1491, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 740] The requested operation requires elevation
+2025-08-04 18:29:00,852 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 18:29:28,660 [INFO] 🤖 Agron Bot is running...
+2025-08-04 18:29:29,232 [INFO] 🚀 Bot started at 2025-08-04T18:29:29.232512
+2025-08-04 18:29:29,571 [INFO] 🔄 Started processing ID '12345678' from issaknife (ID: 5962330651)
+2025-08-04 18:29:29,679 [INFO] 📥 ID '12345678' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 18:29:29,878 [ERROR] ❌ Error while processing ID '12345678' for issaknife (ID: 5962330651): ❌ Invalid ID number. Must be 9 digits.
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 188, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 79, in run_agron_and_capture
+    raise ValueError("❌ Invalid ID number. Must be 9 digits.")
+ValueError: ❌ Invalid ID number. Must be 9 digits.
+2025-08-04 18:29:49,003 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 18:29:49,264 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 18:29:49,299 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 18:29:49,326 [INFO] ✅ Agron executable launched.
+2025-08-04 18:29:51,494 [INFO] ✅ Found window: רישום
+2025-08-04 18:29:54,156 [INFO] 🔑 License entered.
+2025-08-04 18:30:06,220 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 18:30:06,262 [WARNING] ⚠️ Could not focus window: Error code from Windows: 0 - The operation completed successfully.
+2025-08-04 18:30:06,281 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 18:30:26,791 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 18:30:27,910 [INFO] 💧 Watermark added.
+2025-08-04 18:30:29,485 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 18:30:30,601 [INFO] ❌ Closed window 1/3
+2025-08-04 18:30:31,749 [INFO] ❌ Closed window 2/3
+2025-08-04 18:30:32,860 [INFO] ❌ Closed window 3/3
+2025-08-04 18:30:33,861 [INFO] ⏱️ Execution completed in 44.56 seconds
+2025-08-04 18:30:33,883 [INFO] 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+2025-08-04 18:30:33,885 [INFO] 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 18:30:34,207 [ERROR] ❌ Failed to send result to user
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 34, in send_result_to_user
+    raise FileNotFoundError("❌ PDF result file not found.")
+FileNotFoundError: ❌ PDF result file not found.
+2025-08-04 18:30:34,319 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 44.56 sec
+2025-08-04 18:30:41,782 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 18:30:42,025 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 18:30:42,064 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 18:30:42,078 [INFO] ✅ Agron executable launched.
+2025-08-04 18:30:43,655 [INFO] ✅ Found window: רישום
+2025-08-04 18:30:46,270 [INFO] 🔑 License entered.
+2025-08-04 18:30:55,474 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 18:30:55,526 [WARNING] ⚠️ Could not focus window: Error code from Windows: 0 - The operation completed successfully.
+2025-08-04 18:30:55,566 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 18:31:15,967 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 18:31:17,004 [INFO] 💧 Watermark added.
+2025-08-04 18:31:18,027 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 18:31:19,131 [INFO] ❌ Closed window 1/3
+2025-08-04 18:31:20,239 [INFO] ❌ Closed window 2/3
+2025-08-04 18:31:21,341 [INFO] ❌ Closed window 3/3
+2025-08-04 18:31:22,342 [INFO] ⏱️ Execution completed in 40.28 seconds
+2025-08-04 18:31:22,359 [INFO] 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+2025-08-04 18:31:22,363 [INFO] 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 18:31:22,701 [ERROR] ❌ Failed to send result to user
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 34, in send_result_to_user
+    raise FileNotFoundError("❌ PDF result file not found.")
+FileNotFoundError: ❌ PDF result file not found.
+2025-08-04 18:31:22,841 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 40.28 sec
+2025-08-04 18:33:30,161 [INFO] 🤖 Agron Bot is running...
+2025-08-04 18:33:30,618 [INFO] 🚀 Bot started at 2025-08-04T18:33:30.618485
+2025-08-04 18:33:36,390 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 18:33:36,664 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 18:33:36,683 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 18:33:36,736 [INFO] ✅ Agron executable launched.
+2025-08-04 18:33:37,744 [INFO] ✅ Found window: רישום
+2025-08-04 18:33:40,132 [INFO] 🔑 License entered.
+2025-08-04 18:33:49,523 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 18:33:49,543 [WARNING] ⚠️ Could not focus window: Error code from Windows: 0 - The operation completed successfully.
+2025-08-04 18:33:49,551 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 18:34:09,769 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 18:34:10,877 [INFO] 💧 Watermark added.
+2025-08-04 18:34:12,145 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 18:34:13,248 [INFO] ❌ Closed window 1/3
+2025-08-04 18:34:14,350 [INFO] ❌ Closed window 2/3
+2025-08-04 18:34:15,453 [INFO] ❌ Closed window 3/3
+2025-08-04 18:34:16,455 [INFO] ⏱️ Execution completed in 39.77 seconds
+2025-08-04 18:34:16,486 [INFO] 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+2025-08-04 18:34:16,492 [INFO] 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 18:34:16,764 [ERROR] ❌ Failed to send result to user
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 34, in send_result_to_user
+    raise FileNotFoundError("❌ PDF result file not found.")
+FileNotFoundError: ❌ PDF result file not found.
+2025-08-04 18:34:16,857 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 39.77 sec
+2025-08-04 18:36:02,916 [INFO] 🤖 Agron Bot is running...
+2025-08-04 18:36:03,378 [INFO] 🚀 Bot started at 2025-08-04T18:36:03.377618
+2025-08-04 18:36:13,304 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 18:36:13,637 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 18:36:13,660 [INFO] ✅ Agron executable launched.
+2025-08-04 18:36:13,665 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 18:36:15,203 [INFO] ✅ Found window: רישום
+2025-08-04 18:36:17,445 [INFO] 🔑 License entered.
+2025-08-04 18:36:18,455 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 18:36:18,456 [WARNING] ⚠️ Could not focus window: Error code from Windows: 0 - The operation completed successfully.
+2025-08-04 18:36:18,458 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 18:36:38,495 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 18:36:39,526 [INFO] 💧 Watermark added.
+2025-08-04 18:36:40,669 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 18:36:41,773 [INFO] ❌ Closed window 1/3
+2025-08-04 18:36:42,015 [INFO] 🛑 /cancel: issaknife (ID: 5962330651) marked for cancellation (not found in queue).
+2025-08-04 18:36:42,878 [INFO] ❌ Closed window 2/3
+2025-08-04 18:36:43,984 [INFO] ❌ Closed window 3/3
+2025-08-04 18:36:44,985 [INFO] ⏱️ Execution completed in 31.35 seconds
+2025-08-04 18:36:45,249 [INFO] ❌ Canceled during execution: ID '207388604' for issaknife (ID: 5962330651)
+2025-08-04 18:37:03,827 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 18:37:04,104 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 18:37:04,141 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 18:37:04,159 [INFO] ✅ Agron executable launched.
+2025-08-04 18:37:05,679 [INFO] ✅ Found window: רישום
+2025-08-04 18:37:08,074 [INFO] 🔑 License entered.
+2025-08-04 18:37:16,692 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 18:37:16,695 [WARNING] ⚠️ Could not focus window: Error code from Windows: 0 - The operation completed successfully.
+2025-08-04 18:37:16,695 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 18:37:36,746 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 18:37:37,776 [INFO] 💧 Watermark added.
+2025-08-04 18:37:38,825 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 18:37:39,932 [INFO] ❌ Closed window 1/3
+2025-08-04 18:37:41,037 [INFO] ❌ Closed window 2/3
+2025-08-04 18:37:42,141 [INFO] ❌ Closed window 3/3
+2025-08-04 18:37:43,143 [INFO] ⏱️ Execution completed in 39.00 seconds
+2025-08-04 18:37:44,002 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 18:37:44,248 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 18:37:44,266 [INFO] 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+2025-08-04 18:37:44,269 [INFO] 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 18:37:44,269 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 39.00 sec
+2025-08-04 18:39:44,097 [INFO] 👋 /start used by issaknife (ID: 5962330651)
+2025-08-04 18:39:52,488 [INFO] 🖱️ Button clicked: stats by issaknife (ID: 5962330651)
+2025-08-04 18:39:52,688 [INFO] 📈 /stats used by issaknife (ID: 5962330651): {'total_runs': 49, 'avg_runtime': 27.097837837837837, 'total_cancelled': 3}
+2025-08-04 18:39:55,629 [INFO] 🖱️ Button clicked: history by issaknife (ID: 5962330651)
+2025-08-04 18:39:58,671 [INFO] 🖱️ Button clicked: errors by issaknife (ID: 5962330651)
+2025-08-04 18:39:59,005 [INFO] 📤 Sent error log to issaknife (ID: 5962330651)
+2025-08-04 18:47:23,018 [INFO] 🤖 Agron Bot is running...
+2025-08-04 18:47:23,441 [INFO] 🚀 Bot started at 2025-08-04T18:47:23.438584
+2025-08-04 18:47:52,347 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 18:47:52,678 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 18:47:52,701 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 18:47:52,727 [INFO] ✅ Agron executable launched.
+2025-08-04 18:47:54,242 [INFO] ✅ Found window: רישום
+2025-08-04 18:47:56,763 [INFO] 🔑 License entered.
+2025-08-04 18:48:03,862 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 18:48:04,450 [INFO] 🪟 Focused on Agron window.
+2025-08-04 18:48:04,455 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 18:48:24,472 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 18:48:25,512 [INFO] 💧 Watermark added.
+2025-08-04 18:48:26,629 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 18:48:27,732 [INFO] ❌ Closed window 1/3
+2025-08-04 18:48:28,836 [INFO] ❌ Closed window 2/3
+2025-08-04 18:48:29,940 [INFO] ❌ Closed window 3/3
+2025-08-04 18:48:30,954 [INFO] ⏱️ Execution completed in 38.25 seconds
+2025-08-04 18:48:31,853 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 18:48:32,195 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 18:48:32,224 [INFO] 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+2025-08-04 18:48:32,227 [INFO] 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 18:48:32,227 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 38.25 sec
+2025-08-04 18:52:30,930 [INFO] 🤖 Agron Bot is running...
+2025-08-04 18:52:31,414 [INFO] 🚀 Bot started at 2025-08-04T18:52:31.414324
+2025-08-04 18:52:46,742 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 18:52:47,034 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 18:52:47,051 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 18:52:47,074 [INFO] ✅ Agron executable launched.
+2025-08-04 18:52:48,589 [INFO] ✅ Found window: רישום
+2025-08-04 18:52:50,844 [INFO] 🔑 License entered.
+2025-08-04 18:52:59,520 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 18:52:59,523 [INFO] 🪟 Focused on Agron window.
+2025-08-04 18:52:59,523 [INFO] ⏳ Waiting for 'סינון...' button to appear...
+2025-08-04 18:52:59,633 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): The confidence keyword argument is only available if OpenCV is installed.
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 191, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 130, in run_agron_and_capture
+    button_location = wait_for_image("filter_button.png", timeout=30)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 37, in wait_for_image
+    location = pyautogui.locateOnScreen(image_path, confidence=confidence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 273, in _locateAll_pillow
+    raise NotImplementedError('The confidence keyword argument is only available if OpenCV is installed.')
+NotImplementedError: The confidence keyword argument is only available if OpenCV is installed.
+2025-08-04 18:55:00,537 [INFO] 🤖 Agron Bot is running...
+2025-08-04 18:55:00,978 [INFO] 🚀 Bot started at 2025-08-04T18:55:00.978927
+2025-08-04 18:55:09,832 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 18:55:10,126 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 18:55:10,145 [INFO] ✅ Agron executable launched.
+2025-08-04 18:55:10,150 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 18:55:11,654 [INFO] ✅ Found window: רישום
+2025-08-04 18:55:13,919 [INFO] 🔑 License entered.
+2025-08-04 18:55:22,015 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 18:55:22,017 [INFO] 🪟 Focused on Agron window.
+2025-08-04 18:55:22,018 [INFO] ⏳ Waiting for 'סינון...' button to appear...
+2025-08-04 18:55:22,116 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): Failed to read filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 191, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 130, in run_agron_and_capture
+    button_location = wait_for_image("filter_button.png", timeout=30)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 37, in wait_for_image
+    location = pyautogui.locateOnScreen(image_path, confidence=confidence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 193, in _load_cv2
+    raise IOError(
+OSError: Failed to read filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+2025-08-04 18:56:35,825 [INFO] 🤖 Agron Bot is running...
+2025-08-04 18:56:36,309 [INFO] 🚀 Bot started at 2025-08-04T18:56:36.309449
+2025-08-04 18:56:43,495 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 18:56:43,894 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 18:56:43,922 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 18:56:43,935 [INFO] ✅ Agron executable launched.
+2025-08-04 18:56:45,450 [INFO] ✅ Found window: רישום
+2025-08-04 18:56:47,895 [INFO] 🔑 License entered.
+2025-08-04 18:56:54,508 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 18:56:54,844 [INFO] 🪟 Focused on Agron window.
+2025-08-04 18:56:54,854 [INFO] ⏳ Waiting for 'סינון...' button to appear...
+2025-08-04 18:56:55,008 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): Failed to read filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 191, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 130, in run_agron_and_capture
+    button_location = wait_for_image("filter_button.png", timeout=30)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 37, in wait_for_image
+    location = pyautogui.locateOnScreen(image_path, confidence=confidence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 193, in _load_cv2
+    raise IOError(
+OSError: Failed to read filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+2025-08-04 19:02:39,683 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 19:02:40,018 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 19:02:40,036 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 19:02:40,050 [INFO] ✅ Agron executable launched.
+2025-08-04 19:02:41,566 [INFO] ✅ Found window: רישום
+2025-08-04 19:02:43,847 [INFO] 🔑 License entered.
+2025-08-04 19:02:51,941 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 19:02:51,959 [INFO] 🪟 Focused on Agron window.
+2025-08-04 19:02:51,993 [INFO] ⏳ Waiting for 'סינון...' button to appear...
+2025-08-04 19:02:52,212 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): Failed to read filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 191, in run_agron_and_capture_with_cancel_support
+    }
+     
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 130, in run_agron_and_capture
+    try:
+        
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 37, in wait_for_image
+    """Wait until an image appears on the screen or timeout"""
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 193, in _load_cv2
+    raise IOError(
+OSError: Failed to read filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+2025-08-04 19:06:49,574 [INFO] 🤖 Agron Bot is running...
+2025-08-04 19:06:50,002 [INFO] 🚀 Bot started at 2025-08-04T19:06:50.002819
+2025-08-04 19:07:03,306 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 19:07:03,631 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 19:07:03,645 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 19:07:03,667 [INFO] ✅ Agron executable launched.
+2025-08-04 19:07:05,183 [INFO] ✅ Found window: רישום
+2025-08-04 19:07:07,499 [INFO] 🔑 License entered.
+2025-08-04 19:07:08,515 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 19:07:08,829 [INFO] 🪟 Focused on Agron window.
+2025-08-04 19:07:08,845 [INFO] ⏳ Waiting for 'סינון...' button to appear inside Agron window region...
+2025-08-04 19:07:09,392 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): needle dimension(s) exceed the haystack image or region dimensions
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 209, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture
+    button_location = wait_for_image(FILTER_BUTTON_PATH, timeout=30, region=region)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 49, in wait_for_image
+    location = pyautogui.locateOnScreen(needle, confidence=confidence, region=region)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 241, in _locateAll_opencv
+    raise ValueError('needle dimension(s) exceed the haystack image or region dimensions')
+ValueError: needle dimension(s) exceed the haystack image or region dimensions
+2025-08-04 19:07:32,795 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 19:07:33,104 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 19:07:33,136 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 19:07:33,153 [INFO] ✅ Agron executable launched.
+2025-08-04 19:07:34,673 [INFO] ✅ Found window: רישום
+2025-08-04 19:07:36,935 [INFO] 🔑 License entered.
+2025-08-04 19:07:45,055 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 19:07:45,057 [INFO] 🪟 Focused on Agron window.
+2025-08-04 19:07:45,057 [INFO] ⏳ Waiting for 'סינון...' button to appear inside Agron window region...
+2025-08-04 19:07:45,311 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): needle dimension(s) exceed the haystack image or region dimensions
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 209, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture
+    button_location = wait_for_image(FILTER_BUTTON_PATH, timeout=30, region=region)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 49, in wait_for_image
+    location = pyautogui.locateOnScreen(needle, confidence=confidence, region=region)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 241, in _locateAll_opencv
+    raise ValueError('needle dimension(s) exceed the haystack image or region dimensions')
+ValueError: needle dimension(s) exceed the haystack image or region dimensions
+2025-08-04 19:09:12,552 [INFO] 🤖 Agron Bot is running...
+2025-08-04 19:09:13,029 [INFO] 🚀 Bot started at 2025-08-04T19:09:13.029121
+2025-08-04 19:09:24,529 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 19:09:24,875 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 19:09:24,889 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 19:09:24,905 [INFO] ✅ Agron executable launched.
+2025-08-04 19:09:26,476 [INFO] ✅ Found window: רישום
+2025-08-04 19:09:28,722 [INFO] 🔑 License entered.
+2025-08-04 19:09:36,883 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 19:09:36,884 [INFO] 🪟 Focused on Agron window.
+2025-08-04 19:09:36,896 [INFO] ⏳ Waiting for 'סינון...' button to appear inside Agron window region...
+2025-08-04 19:09:37,209 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): needle dimension(s) exceed the haystack image or region dimensions
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 219, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 158, in run_agron_and_capture
+    button_location = wait_for_image(FILTER_BUTTON_PATH, timeout=30, region=region)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 59, in wait_for_image
+    location = pyautogui.locateOnScreen(needle, confidence=confidence, region=region)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 241, in _locateAll_opencv
+    raise ValueError('needle dimension(s) exceed the haystack image or region dimensions')
+ValueError: needle dimension(s) exceed the haystack image or region dimensions
+2025-08-04 19:13:26,847 [INFO] 🤖 Agron Bot is running...
+2025-08-04 19:13:27,303 [INFO] 🚀 Bot started at 2025-08-04T19:13:27.303134
+2025-08-04 19:13:38,921 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 19:13:39,418 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 19:13:39,442 [INFO] ✅ Agron executable launched.
+2025-08-04 19:13:39,467 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 19:13:40,964 [INFO] ✅ Found window: רישום
+2025-08-04 19:13:43,261 [INFO] 🔑 License entered.
+2025-08-04 19:13:51,381 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 19:13:51,728 [INFO] 🪟 Focused on Agron window.
+2025-08-04 19:13:51,745 [INFO] ⏳ Waiting for button 'סינון...' in window 'אגרון פלוס 2006'...
+2025-08-04 19:14:23,626 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): ❌ Button 'סינון...' not found in 'אגרון פלוס 2006' within 30 seconds.
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 196, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 137, in run_agron_and_capture
+    filter_button = wait_for_button("אגרון פלוס 2006", "סינון...", timeout=30)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 51, in wait_for_button
+    raise RuntimeError(f"❌ Button '{button_text}' not found in '{window_title}' within {timeout} seconds.")
+RuntimeError: ❌ Button 'סינון...' not found in 'אגרון פלוס 2006' within 30 seconds.
+2025-08-04 19:19:36,201 [INFO] 🤖 Agron Bot is running...
+2025-08-04 19:19:36,693 [INFO] 🚀 Bot started at 2025-08-04T19:19:36.693479
+2025-08-04 19:19:47,261 [INFO] 🔄 Started processing ID '207488604' from issaknife (ID: 5962330651)
+2025-08-04 19:19:47,568 [INFO] ▶️ Running Agron for ID: 207488604
+2025-08-04 19:19:47,578 [INFO] ✅ Agron executable launched.
+2025-08-04 19:19:47,593 [INFO] 📥 ID '207488604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 19:19:49,148 [INFO] ✅ Found window: רישום
+2025-08-04 19:19:51,581 [INFO] 🔑 License entered.
+2025-08-04 19:20:01,464 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 19:20:01,472 [INFO] 🪟 Focused on Agron window.
+2025-08-04 19:20:01,478 [INFO] ⏳ Waiting for 'סינון...' button to appear in window...
+2025-08-04 19:20:01,480 [INFO] 🔍 Searching for image in region: (-4, -4, 1928, 1028)
+2025-08-04 19:20:01,773 [ERROR] ❌ Error while processing ID '207488604' for issaknife (ID: 5962330651): Failed to read C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 206, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 145, in run_agron_and_capture
+    button_location = wait_for_image_in_window(FILTER_BUTTON_PATH, main_window, timeout=30)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 48, in wait_for_image_in_window
+    location = pyautogui.locateOnScreen(image_path, confidence=confidence, region=region)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 193, in _load_cv2
+    raise IOError(
+OSError: Failed to read C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+2025-08-04 19:46:11,685 [INFO] 🤖 Agron Bot is running...
+2025-08-04 19:46:12,329 [INFO] 🚀 Bot started at 2025-08-04T19:46:12.329249
+2025-08-04 19:46:40,541 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 19:46:40,884 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 19:46:40,891 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 19:46:40,927 [INFO] ✅ Agron executable launched.
+2025-08-04 19:46:42,453 [INFO] ✅ Found window: רישום
+2025-08-04 19:46:44,713 [INFO] 🔑 License entered.
+2025-08-04 19:46:45,715 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 19:46:45,836 [INFO] 🪟 Focused on Agron window.
+2025-08-04 19:46:45,836 [INFO] 🖱️ Clicking on 'סינון...' button at fixed position X=318, Y=361
+2025-08-04 19:46:50,914 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 19:46:51,960 [INFO] 💧 Watermark added.
+2025-08-04 19:46:53,177 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 19:46:54,302 [INFO] ❌ Closed window 1/3
+2025-08-04 19:46:55,406 [INFO] ❌ Closed window 2/3
+2025-08-04 19:46:56,511 [INFO] ❌ Closed window 3/3
+2025-08-04 19:46:57,515 [INFO] ⏱️ Execution completed in 16.62 seconds
+2025-08-04 19:46:58,107 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 19:46:58,337 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 19:46:58,342 [INFO] 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+2025-08-04 19:46:58,347 [INFO] 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 19:46:58,347 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 16.62 sec
+2025-08-04 19:51:59,997 [INFO] 🤖 Agron Bot is running...
+2025-08-04 19:52:00,635 [INFO] 🚀 Bot started at 2025-08-04T19:52:00.635891
+2025-08-04 19:52:11,597 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 19:52:11,898 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 19:52:11,928 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 19:52:11,939 [INFO] ✅ Agron executable launched.
+2025-08-04 19:52:13,468 [INFO] ✅ Found window: רישום
+2025-08-04 19:52:15,809 [INFO] 🔑 License entered.
+2025-08-04 19:52:23,386 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 19:52:23,390 [INFO] 🪟 Focused on Agron window.
+2025-08-04 19:52:23,399 [INFO] ⏳ Waiting 10 seconds before clicking 'סינון...' button...
+2025-08-04 19:52:33,402 [INFO] 🖱️ Clicking on 'סינון...' button at fixed position X=318, Y=361
+2025-08-04 19:52:38,424 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 19:52:39,470 [INFO] 💧 Watermark added.
+2025-08-04 19:52:40,564 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 19:52:41,667 [INFO] ❌ Closed window 1/3
+2025-08-04 19:52:42,770 [INFO] ❌ Closed window 2/3
+2025-08-04 19:52:43,873 [INFO] ❌ Closed window 3/3
+2025-08-04 19:55:50,240 [INFO] 🤖 Agron Bot is running...
+2025-08-04 19:55:50,911 [INFO] 🚀 Bot started at 2025-08-04T19:55:50.911901
+2025-08-04 19:55:51,378 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 19:55:51,511 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 19:55:51,777 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 19:55:51,820 [ERROR] ❌ Failed to launch Agron: [WinError 740] The requested operation requires elevation
+2025-08-04 19:55:51,821 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): [WinError 740] The requested operation requires elevation
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 177, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 88, in run_agron_and_capture
+    subprocess.Popen(exe_path, cwd=agr_path)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1022, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1491, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 740] The requested operation requires elevation
+2025-08-04 19:56:39,140 [INFO] 🤖 Agron Bot is running...
+2025-08-04 19:56:40,124 [INFO] 🚀 Bot started at 2025-08-04T19:56:40.124546
+2025-08-04 19:56:50,920 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 19:56:51,295 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 19:56:51,311 [INFO] ✅ Agron executable launched.
+2025-08-04 19:56:51,325 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 19:56:52,867 [INFO] ✅ Found window: רישום
+2025-08-04 19:56:55,419 [INFO] 🔑 License entered.
+2025-08-04 19:57:05,298 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 19:57:05,720 [INFO] 🪟 Focused on Agron window.
+2025-08-04 19:57:05,738 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 19:57:25,900 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 19:57:26,947 [INFO] 💧 Watermark added.
+2025-08-04 19:57:28,095 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 19:57:29,198 [INFO] ❌ Closed window 1/3
+2025-08-04 19:57:30,300 [INFO] ❌ Closed window 2/3
+2025-08-04 19:57:31,403 [INFO] ❌ Closed window 3/3
+2025-08-04 19:57:32,407 [INFO] ⏱️ Execution completed in 41.11 seconds
+2025-08-04 19:57:33,046 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 19:57:33,207 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 19:57:33,210 [INFO] 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+2025-08-04 19:57:33,213 [INFO] 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 19:57:33,214 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 41.11 sec
+2025-08-04 19:57:44,169 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 19:57:44,478 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 19:57:44,532 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 19:57:44,540 [INFO] ✅ Agron executable launched.
+2025-08-04 19:57:46,085 [INFO] ✅ Found window: רישום
+2025-08-04 19:57:48,417 [INFO] 🔑 License entered.
+2025-08-04 19:57:58,213 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 19:57:58,213 [WARNING] ⚠️ Could not focus window: Error code from Windows: 0 - The operation completed successfully.
+2025-08-04 19:57:58,213 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 19:58:18,348 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 19:58:19,427 [INFO] 💧 Watermark added.
+2025-08-04 19:58:20,515 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 19:58:21,636 [INFO] ❌ Closed window 1/3
+2025-08-04 19:58:22,745 [INFO] ❌ Closed window 2/3
+2025-08-04 19:58:23,855 [INFO] ❌ Closed window 3/3
+2025-08-04 19:58:24,856 [INFO] ⏱️ Execution completed in 40.32 seconds
+2025-08-04 19:58:25,409 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 19:58:25,751 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 19:58:25,782 [INFO] 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+2025-08-04 19:58:25,785 [INFO] 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 19:58:25,785 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 40.32 sec
+2025-08-04 19:59:08,522 [INFO] 🤖 Agron Bot is running...
+2025-08-04 19:59:09,111 [INFO] 🚀 Bot started at 2025-08-04T19:59:09.111101
+2025-08-04 19:59:13,722 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 19:59:13,858 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 19:59:14,060 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 19:59:14,084 [INFO] ✅ Agron executable launched.
+2025-08-04 19:59:15,604 [INFO] ✅ Found window: רישום
+2025-08-04 19:59:17,872 [INFO] 🔑 License entered.
+2025-08-04 19:59:25,000 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 19:59:25,000 [INFO] 🪟 Focused on Agron window.
+2025-08-04 19:59:25,002 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 19:59:40,079 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 19:59:41,108 [INFO] 💧 Watermark added.
+2025-08-04 19:59:42,244 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 19:59:43,347 [INFO] ❌ Closed window 1/3
+2025-08-04 19:59:44,450 [INFO] ❌ Closed window 2/3
+2025-08-04 19:59:45,553 [INFO] ❌ Closed window 3/3
+2025-08-04 19:59:46,557 [INFO] ⏱️ Execution completed in 32.50 seconds
+2025-08-04 19:59:48,031 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 19:59:48,563 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 19:59:48,569 [INFO] 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+2025-08-04 19:59:48,575 [INFO] 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 19:59:48,576 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 32.50 sec
+2025-08-04 20:04:20,508 [INFO] 🤖 Agron Bot is running...
+2025-08-04 20:04:21,021 [INFO] 🚀 Bot started at 2025-08-04T20:04:21.021231
+2025-08-04 20:04:29,974 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 20:04:30,402 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 20:04:30,443 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 20:04:30,465 [INFO] ✅ Agron executable launched.
+2025-08-04 20:04:32,014 [INFO] ✅ Found window: רישום
+2025-08-04 20:04:34,349 [INFO] 🔑 License entered.
+2025-08-04 20:04:44,467 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 20:04:44,469 [WARNING] ⚠️ Could not focus window: Error code from Windows: 0 - The operation completed successfully.
+2025-08-04 20:04:44,469 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 20:04:59,599 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 20:05:00,675 [INFO] 💧 Watermark added.
+2025-08-04 20:05:01,926 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 20:05:03,033 [INFO] ❌ Closed window 1/3
+2025-08-04 20:05:04,139 [INFO] ❌ Closed window 2/3
+2025-08-04 20:05:05,240 [INFO] ❌ Closed window 3/3
+2025-08-04 20:05:06,241 [INFO] ⏱️ Execution completed in 35.80 seconds
+2025-08-04 20:05:07,179 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 20:05:07,438 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 20:05:07,468 [INFO] 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+2025-08-04 20:05:07,472 [INFO] 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 20:05:07,475 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 35.80 sec
+2025-08-04 20:06:15,209 [INFO] 🤖 Agron Bot is running...
+2025-08-04 20:06:15,705 [INFO] 🚀 Bot started at 2025-08-04T20:06:15.705675
+2025-08-04 20:06:22,988 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 20:06:23,395 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 20:06:23,424 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 20:06:23,443 [INFO] ✅ Agron executable launched.
+2025-08-04 20:06:24,964 [INFO] ✅ Found window: רישום
+2025-08-04 20:06:27,333 [INFO] 🔑 License entered.
+2025-08-04 20:06:34,423 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 20:06:34,427 [INFO] 🪟 Focused on Agron window.
+2025-08-04 20:06:34,428 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 20:06:49,586 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 20:06:50,677 [INFO] 💧 Watermark added.
+2025-08-04 20:06:51,816 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 20:06:52,920 [INFO] ❌ Closed window 1/3
+2025-08-04 20:06:54,030 [INFO] ❌ Closed window 2/3
+2025-08-04 20:06:55,136 [INFO] ❌ Closed window 3/3
+2025-08-04 20:06:56,141 [INFO] ⏱️ Execution completed in 32.72 seconds
+2025-08-04 20:06:56,867 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 20:06:57,290 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 20:06:57,293 [INFO] 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+2025-08-04 20:06:57,300 [INFO] 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 20:06:57,301 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 32.72 sec
+2025-08-04 20:08:50,692 [WARNING] ⚠️ Telegram log handler not active – missing TELEGRAM_TOKEN or DEVELOPER_ID in .env
+2025-08-04 20:08:51,325 [INFO] 🤖 Agron Bot is running...
+2025-08-04 20:08:51,802 [INFO] 🚀 Bot started at 2025-08-04T20:08:51.802209
+2025-08-04 20:11:18,084 [WARNING] ⚠️ Telegram log handler not active – missing TELEGRAM_TOKEN or DEVELOPER_ID in .env
+2025-08-04 20:11:18,853 [INFO] 🤖 Agron Bot is running...
+2025-08-04 20:11:20,188 [INFO] 🚀 Bot started at 2025-08-04T20:11:20.188136
+2025-08-04 20:12:31,043 [WARNING] ⚠️ Telegram log handler not active – missing TELEGRAM_TOKEN or DEVELOPER_ID in .env
+2025-08-04 20:12:31,686 [INFO] 🤖 Agron Bot is running...
+2025-08-04 20:12:32,158 [INFO] 🚀 Bot started at 2025-08-04T20:12:32.158609
+2025-08-04 20:14:19,807 [WARNING] ⚠️ Telegram log handler not active – missing TELEGRAM_TOKEN or DEVELOPER_ID in .env
+2025-08-04 20:14:19,807 [WARNING] ⚠️ Telegram log handler not active – missing TELEGRAM_TOKEN or DEVELOPER_ID in .env
+2025-08-04 20:14:20,553 [INFO] 🤖 Agron Bot is running...
+2025-08-04 20:14:21,090 [INFO] 🚀 Bot started at 2025-08-04T20:14:21.090599
+2025-08-04 20:17:22,550 [WARNING] ⚠️ Telegram log handler not active – missing TELEGRAM_TOKEN or DEVELOPER_ID in .env
+2025-08-04 20:17:22,551 [WARNING] ⚠️ Telegram log handler not active – missing TELEGRAM_TOKEN or DEVELOPER_ID in .env
+2025-08-04 20:17:23,423 [INFO] 🤖 Agron Bot is running...
+2025-08-04 20:17:24,404 [INFO] 🚀 Bot started at 2025-08-04T20:17:24.404718
+2025-08-04 20:17:24,404 [INFO] 🧪 DEBUG mode is active
+2025-08-04 20:18:26,093 [WARNING] ⚠️ Telegram log handler not active – missing TELEGRAM_TOKEN or DEVELOPER_ID in .env
+2025-08-04 20:18:26,099 [WARNING] ⚠️ Telegram log handler not active – missing TELEGRAM_TOKEN or DEVELOPER_ID in .env
+2025-08-04 20:18:26,789 [INFO] 🤖 Agron Bot is running...
+2025-08-04 20:18:27,263 [INFO] 🚀 Bot started at 2025-08-04T20:18:27.263995
+2025-08-04 20:18:27,264 [INFO] 🧪 DEBUG mode is active
+2025-08-04 20:20:11,410 [INFO] 📡 Telegram log handler is active.
+2025-08-04 20:20:11,478 [INFO] 📡 Telegram log handler is active.
+2025-08-04 20:20:11,479 [INFO] 📡 Telegram log handler enabled.
+2025-08-04 20:20:12,193 [INFO] 🤖 Agron Bot is running...
+2025-08-04 20:20:12,697 [INFO] 🚀 Bot started at 2025-08-04T20:20:12.697427
+2025-08-04 20:20:12,699 [INFO] 🧪 DEBUG mode is active
+2025-08-04 20:22:48,829 [ERROR] ❌ Unexpected error occurred in main()
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 101, in main
+    enable_telegram_logging(app.bot, app.bot.loop)
+                                     ^^^^^^^^^^^^
+AttributeError: 'ExtBot' object has no attribute 'loop'
+2025-08-04 20:26:28,188 [INFO] 🤖 Agron Bot is running...
+2025-08-04 20:26:28,549 [ERROR] ❌ Unexpected error occurred in main()
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 130, in main
+    app.run_polling()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 727, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 921, in __run
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 912, in __run
+    loop.run_until_complete(self.post_init(self))
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 650, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 80, in startup
+    enable_telegram_logging(app.bot, app.application.loop, int(os.getenv("DEVELOPER_ID")))
+                                     ^^^^^^^^^^^^^^^
+AttributeError: 'Application' object has no attribute 'application'
+2025-08-04 20:26:28,561 [ERROR] ❌ Failed to notify developer: Unknown error in HTTP implementation: RuntimeError('This HTTPXRequest is not initialized!')
+2025-08-04 20:27:52,951 [INFO] 🤖 Agron Bot is running...
+2025-08-04 20:27:53,319 [ERROR] ❌ Unexpected error occurred in main()
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 131, in main
+    app.run_polling()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 727, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 921, in __run
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 912, in __run
+    loop.run_until_complete(self.post_init(self))
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 650, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 80, in startup
+    enable_telegram_logging(app.bot, app._loop, int(os.getenv("DEVELOPER_ID")))
+                                     ^^^^^^^^^
+AttributeError: 'Application' object has no attribute '_loop'
+2025-08-04 20:27:53,324 [ERROR] ❌ Failed to notify developer: Unknown error in HTTP implementation: RuntimeError('This HTTPXRequest is not initialized!')
+2025-08-04 20:29:38,705 [INFO] 🤖 Agron Bot is running...
+2025-08-04 20:29:39,074 [INFO] 📡 Telegram log handler is active.
+2025-08-04 20:29:39,074 [INFO] 📡 Telegram log handler enabled.
+2025-08-04 20:29:39,322 [INFO] 🚀 Bot started at 2025-08-04T20:29:39.322357
+2025-08-04 20:29:39,322 [INFO] 🧪 DEBUG mode is active
+2025-08-04 20:29:48,962 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-04 20:29:49,371 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-04 20:29:49,393 [INFO] ✅ Agron executable launched.
+2025-08-04 20:29:49,449 [INFO] 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+2025-08-04 20:29:50,918 [INFO] ✅ Found window: רישום
+2025-08-04 20:29:53,420 [INFO] 🔑 License entered.
+2025-08-04 20:30:04,145 [INFO] ✅ Found window: אגרון פלוס 2006
+2025-08-04 20:30:04,165 [WARNING] ⚠️ Could not focus window: Error code from Windows: 0 - The operation completed successfully.
+2025-08-04 20:30:04,184 [INFO] ⏳ Waiting 15 seconds for Agron to fully load...
+2025-08-04 20:30:19,304 [INFO] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+2025-08-04 20:30:20,399 [INFO] 💧 Watermark added.
+2025-08-04 20:30:21,653 [INFO] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 20:30:22,757 [INFO] ❌ Closed window 1/3
+2025-08-04 20:30:23,878 [INFO] ❌ Closed window 2/3
+2025-08-04 20:30:24,988 [INFO] ❌ Closed window 3/3
+2025-08-04 20:30:25,990 [INFO] ⏱️ Execution completed in 36.62 seconds
+2025-08-04 20:30:27,434 [INFO] 📸 Screenshot sent to issaknife (ID: 5962330651)
+2025-08-04 20:30:27,689 [INFO] 📤 Sent result PDF to issaknife (ID: 5962330651)
+2025-08-04 20:30:27,694 [INFO] 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+2025-08-04 20:30:27,707 [INFO] 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+2025-08-04 20:30:27,708 [INFO] ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 36.62 sec
+[LOG 1] [INFO] 2025-08-04 20:40:51 🤖 Agron Bot is running...
+[LOG 3] [INFO] 2025-08-04 20:40:51 📡 Telegram log handler is active.
+[LOG 6] [INFO] 2025-08-04 20:40:51 📡 Telegram log handler enabled.
+[LOG 9] [INFO] 2025-08-04 20:40:51 🚀 Bot started at 2025-08-04T20:40:51.528814
+[LOG 12] [INFO] 2025-08-04 20:40:51 🧪 DEBUG mode is active
+[LOG 15] [INFO] 2025-08-04 20:41:06 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+[LOG 18] [INFO] 2025-08-04 20:41:07 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+[LOG 1] [INFO] 2025-08-04 20:41:07 ▶️ Starting search for ID: 207388604
+[LOG 4] [INFO] 2025-08-04 20:41:07 Launching Agron...
+[LOG 7] [INFO] 2025-08-04 20:41:07 ✅ Agron executable launched.
+[LOG 10] [INFO] 2025-08-04 20:41:08 ✅ Found window: רישום
+[LOG 13] [INFO] 2025-08-04 20:41:11 🔑 License entered.
+[LOG 16] [INFO] 2025-08-04 20:41:18 ✅ Found window: אגרון פלוס 2006
+[LOG 19] [INFO] 2025-08-04 20:41:19 🪟 Focused on Agron window.
+[LOG 22] [INFO] 2025-08-04 20:41:19 ⏳ Waiting 15 seconds for Agron to fully load...
+[LOG 25] [INFO] 2025-08-04 20:41:34 🔍 Clicked filter button.
+[LOG 28] [INFO] 2025-08-04 20:41:35 ⌨️ Entered ID number.
+[LOG 31] [INFO] 2025-08-04 20:41:36 🔎 Clicked search button.
+[LOG 34] [INFO] 2025-08-04 20:41:38 📂 Opened result.
+[LOG 37] [INFO] 2025-08-04 20:41:39 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+[LOG 40] [INFO] 2025-08-04 20:41:40 💧 Watermark added.
+[LOG 43] [INFO] 2025-08-04 20:41:41 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+[LOG 46] [INFO] 2025-08-04 20:41:42 ❌ Closed window 1/3
+[LOG 49] [INFO] 2025-08-04 20:41:43 ❌ Closed window 2/3
+[LOG 52] [INFO] 2025-08-04 20:41:44 ❌ Closed window 3/3
+[LOG 55] [INFO] 2025-08-04 20:41:45 ⏱️ Execution completed in 38.42 seconds
+[LOG 58] [INFO] 2025-08-04 20:41:46 📸 Screenshot sent to issaknife (ID: 5962330651)
+[LOG 61] [INFO] 2025-08-04 20:41:46 📤 Sent result PDF to issaknife (ID: 5962330651)
+[LOG 64] [INFO] 2025-08-04 20:41:46 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+[LOG 67] [INFO] 2025-08-04 20:41:46 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+[LOG 70] [INFO] 2025-08-04 20:41:46 ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 38.42 sec
+[LOG 73] [INFO] 2025-08-04 20:43:42 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+[LOG 76] [INFO] 2025-08-04 20:43:43 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+[LOG 1] [INFO] 2025-08-04 20:43:43 ▶️ Starting search for ID: 207388604
+[LOG 4] [INFO] 2025-08-04 20:43:43 Launching Agron...
+[LOG 7] [INFO] 2025-08-04 20:43:43 ✅ Agron executable launched.
+[LOG 10] [INFO] 2025-08-04 20:43:44 ✅ Found window: רישום
+[LOG 13] [INFO] 2025-08-04 20:43:46 🔑 License entered.
+[LOG 16] [INFO] 2025-08-04 20:43:54 ✅ Found window: אגרון פלוס 2006
+[LOG 19] [INFO] 2025-08-04 20:43:54 🪟 Focused on Agron window.
+[LOG 22] [INFO] 2025-08-04 20:43:54 ⏳ Waiting 15 seconds for Agron to fully load...
+[LOG 25] [INFO] 2025-08-04 20:44:09 🔍 Clicked filter button.
+[LOG 28] [INFO] 2025-08-04 20:44:10 ⌨️ Entered ID number.
+[LOG 31] [INFO] 2025-08-04 20:44:11 🔎 Clicked search button.
+[LOG 34] [INFO] 2025-08-04 20:44:12 📂 Opened result.
+[LOG 37] [INFO] 2025-08-04 20:44:14 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+[LOG 40] [INFO] 2025-08-04 20:44:15 💧 Watermark added.
+[LOG 43] [INFO] 2025-08-04 20:44:16 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+[LOG 46] [INFO] 2025-08-04 20:44:17 ❌ Closed window 1/3
+[LOG 49] [INFO] 2025-08-04 20:44:18 ❌ Closed window 2/3
+[LOG 52] [INFO] 2025-08-04 20:44:19 ❌ Closed window 3/3
+[LOG 55] [INFO] 2025-08-04 20:44:20 ⏱️ Execution completed in 37.35 seconds
+[LOG 58] [INFO] 2025-08-04 20:44:21 📸 Screenshot sent to issaknife (ID: 5962330651)
+[LOG 61] [INFO] 2025-08-04 20:44:21 📤 Sent result PDF to issaknife (ID: 5962330651)
+[LOG 64] [INFO] 2025-08-04 20:44:21 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+[LOG 67] [INFO] 2025-08-04 20:44:21 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+[LOG 70] [INFO] 2025-08-04 20:44:21 ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 37.35 sec
+[INFO] 2025-08-04 20:48:21 🤖 Agron Bot is running...
+[INFO] 2025-08-04 20:48:21 📡 Telegram log handler is active.
+[INFO] 2025-08-04 20:48:21 📡 Telegram log handler enabled.
+[INFO] 2025-08-04 20:48:21 🚀 Bot started at 2025-08-04T20:48:21.827101
+[INFO] 2025-08-04 20:48:21 🧪 DEBUG mode is active
+[INFO] 2025-08-04 20:48:32 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+[INFO] 2025-08-04 20:48:33 📥 ID '207388604' added to queue by issaknife (ID: 5962330651) (position #1, est. wait 15 seconds)
+[INFO] 2025-08-04 20:48:33 [LOG 1] ▶️ Starting search for ID: 207388604
+[INFO] 2025-08-04 20:48:33 [LOG 2] Launching Agron...
+[INFO] 2025-08-04 20:48:33 [LOG 3] ✅ Agron executable launched.
+[INFO] 2025-08-04 20:48:34 [LOG 4] ✅ Found window: רישום
+[INFO] 2025-08-04 20:48:36 [LOG 5] 🔑 License entered.
+[INFO] 2025-08-04 20:48:47 [LOG 6] ✅ Found window: אגרון פלוס 2006
+[WARNING] 2025-08-04 20:48:47 ⚠️ Could not focus window: Error code from Windows: 0 - The operation completed successfully.
+[INFO] 2025-08-04 20:48:47 [LOG 7] ⏳ Waiting 15 seconds for Agron to fully load...
+[INFO] 2025-08-04 20:49:02 [LOG 8] 🔍 Clicked filter button.
+[INFO] 2025-08-04 20:49:04 [LOG 9] ⌨️ Entered ID number.
+[INFO] 2025-08-04 20:49:05 [LOG 10] 🔎 Clicked search button.
+[INFO] 2025-08-04 20:49:06 [LOG 11] 📂 Opened result.
+[INFO] 2025-08-04 20:49:07 [LOG 12] 📸 Screenshot saved to: screenshots\2025-08-04\result_207388604.png
+[INFO] 2025-08-04 20:49:08 [LOG 13] 💧 Watermark added.
+[INFO] 2025-08-04 20:49:10 [LOG 14] 📄 Saved PDF to: screenshots\2025-08-04\result_207388604.pdf
+[INFO] 2025-08-04 20:49:11 [LOG 15] ❌ Closed window 1/3
+[INFO] 2025-08-04 20:49:12 [LOG 16] ❌ Closed window 2/3
+[INFO] 2025-08-04 20:49:13 [LOG 17] ❌ Closed window 3/3
+[INFO] 2025-08-04 20:49:14 [LOG 18] ⏱️ Execution completed in 41.52 seconds
+[INFO] 2025-08-04 20:49:15 📸 Screenshot sent to issaknife (ID: 5962330651)
+[INFO] 2025-08-04 20:49:15 📤 Sent result PDF to issaknife (ID: 5962330651)
+[INFO] 2025-08-04 20:49:15 🗑️ Deleted screenshot: screenshots\2025-08-04\result_207388604.png
+[INFO] 2025-08-04 20:49:15 🗑️ Deleted PDF: screenshots\2025-08-04\result_207388604.pdf
+[INFO] 2025-08-04 20:49:15 ✅ Completed ID '207388604' for issaknife (ID: 5962330651) in 41.52 sec

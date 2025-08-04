@@ -1,0 +1,1064 @@
+2025-08-03 20:50:08,091 [ERROR] ❌ Failed to send error log:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 176, in _command
+    await update.message.reply_document(document=log_file, filename="error.log")
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_message.py", line 1501, in reply_document
+    return await self.get_bot().send_document(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 2395, in send_document
+    return await super().send_document(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 381, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 1326, in send_document
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 507, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 559, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 469, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 325, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 497, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: File must be non-empty
+2025-08-03 21:21:46,985 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 25, in handle_callback
+    await status_command(queue)()(update, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: status_command.<locals>._command() missing 2 required positional arguments: 'update' and 'context'
+2025-08-03 21:23:34,473 [ERROR] ❌ Failed to retrieve history:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 132, in _command
+    await update.message.reply_markdown("\n".join(lines), reply_markup=build_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_markdown'
+2025-08-03 21:23:34,474 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 132, in _command
+    await update.message.reply_markdown("\n".join(lines), reply_markup=build_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_markdown'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 33, in handle_callback
+    await history_command()(update, context)
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 136, in _command
+    await update.message.reply_text(f"❗ Failed to load history: {str(e)}", reply_markup=build_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-08-03 22:07:04,008 [ERROR] ❌ Failed to retrieve history:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 132, in _command
+    await update.message.reply_markdown("\n".join(lines), reply_markup=build_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_markdown'
+2025-08-03 22:07:04,008 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 132, in _command
+    await update.message.reply_markdown("\n".join(lines), reply_markup=build_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_markdown'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 33, in handle_callback
+    await history_command()(update, context)
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 136, in _command
+    await update.message.reply_text(f"❗ Failed to load history: {str(e)}", reply_markup=build_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-08-03 22:20:19,169 [ERROR] ❌ Failed to retrieve history:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 132, in _command
+    await update.message.reply_markdown("\n".join(lines), reply_markup=build_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_markdown'
+2025-08-03 22:20:19,172 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 132, in _command
+    await update.message.reply_markdown("\n".join(lines), reply_markup=build_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_markdown'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 33, in handle_callback
+    await history_command()(update, context)
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 136, in _command
+    await update.message.reply_text(f"❗ Failed to load history: {str(e)}", reply_markup=build_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-08-04 00:47:52,057 [ERROR] ❌ Failed to retrieve history:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 132, in _command
+    except Exception:
+      ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_markdown'
+2025-08-04 00:47:52,129 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 132, in _command
+    except Exception:
+      ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_markdown'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 33, in handle_callback
+    await history_command()(update, context)
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 136, in _command
+    id_number = item.get("id_number", "unknown")
+      ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-08-04 00:47:56,130 [ERROR] ❌ Failed to retrieve history:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 132, in _command
+    except Exception:
+      ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_markdown'
+2025-08-04 00:47:56,133 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 132, in _command
+    except Exception:
+      ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_markdown'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 33, in handle_callback
+    await history_command()(update, context)
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 136, in _command
+    id_number = item.get("id_number", "unknown")
+      ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-08-04 00:48:24,535 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 25, in handle_callback
+    await status_command(queue)()(update, context)
+          ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: status_command.<locals>._command() missing 2 required positional arguments: 'update' and 'context'
+2025-08-04 00:50:45,118 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 25, in handle_callback
+    await status_command(queue)(update, context)  # ✅ תיקון כאן
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 70, in _command
+    await update.message.reply_text(NO_QUEUE_MESSAGE, reply_markup=build_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-08-04 00:52:13,330 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 25, in handle_callback
+    await status_command(queue)(update, context)  # ✅ תיקון כאן
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\commands.py", line 70, in _command
+AttributeError: 'NoneType' object has no attribute 'reply_text'
+2025-08-04 01:28:20,066 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 44, in handle_callback
+    await query.edit_message_text("❓ Unknown action.")
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_callbackquery.py", line 241, in edit_message_text
+    return await self.message.edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_message.py", line 2526, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 1482, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 381, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 3381, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 507, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 559, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 469, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 325, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 497, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no text in the message to edit
+2025-08-04 01:28:39,311 [ERROR] ❌ Exception during callback execution:
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\handlers\callbacks.py", line 44, in handle_callback
+    await query.edit_message_text("❓ Unknown action.")
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_callbackquery.py", line 241, in edit_message_text
+    return await self.message.edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_message.py", line 2526, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 1482, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 381, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 3381, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 507, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 559, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 469, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 325, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 497, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 328, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: There is no text in the message to edit
+2025-08-04 01:44:02,228 [ERROR] ❌ Unexpected error occurred in main()
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 10, in map_exceptions
+    yield
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\backends\asyncio.py", line 111, in connect_tcp
+    stream: anyio.abc.ByteStream = await anyio.connect_tcp(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_core\_sockets.py", line 208, in connect_tcp
+    gai_res = await getaddrinfo(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_core\_sockets.py", line 584, in getaddrinfo
+    gai_res = await get_async_backend().getaddrinfo(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_backends\_asyncio.py", line 2692, in getaddrinfo
+    return await get_running_loop().getaddrinfo(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 864, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 961, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection.py", line 86, in handle_async_request
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\backends\auto.py", line 29, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\backends\asyncio.py", line 109, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_httpxrequest.py", line 216, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1530, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1617, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1645, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1682, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1719, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 352, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 96, in main
+    app.run_polling()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 727, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 921, in __run
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 910, in __run
+    loop.run_until_complete(self.initialize())
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 650, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 399, in initialize
+    await self.bot.initialize()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 271, in initialize
+    await super().initialize()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 591, in initialize
+    await self.get_me()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 1706, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 381, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 736, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 469, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 325, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 497, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 291, in _request_wrapper
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 277, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_httpxrequest.py", line 240, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-08-04 01:44:02,255 [ERROR] ❌ Failed to notify developer: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-08-04 01:45:08,803 [ERROR] ❌ Unexpected error occurred in main()
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 10, in map_exceptions
+    yield
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\backends\asyncio.py", line 111, in connect_tcp
+    stream: anyio.abc.ByteStream = await anyio.connect_tcp(
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_core\_sockets.py", line 208, in connect_tcp
+    gai_res = await getaddrinfo(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_core\_sockets.py", line 584, in getaddrinfo
+    gai_res = await get_async_backend().getaddrinfo(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\anyio\_backends\_asyncio.py", line 2692, in getaddrinfo
+    return await get_running_loop().getaddrinfo(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 864, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 961, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection.py", line 86, in handle_async_request
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection.py", line 63, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_async\connection.py", line 111, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\backends\auto.py", line 29, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\backends\asyncio.py", line 109, in connect_tcp
+    with map_exceptions(exc_map):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc)
+httpcore.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_httpxrequest.py", line 216, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1530, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1617, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1645, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1682, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_client.py", line 1719, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 352, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\contextlib.py", line 155, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\httpx\_transports\default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 96, in main
+    app.run_polling()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 727, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 921, in __run
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 910, in __run
+    loop.run_until_complete(self.initialize())
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 650, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 399, in initialize
+    await self.bot.initialize()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 271, in initialize
+    await super().initialize()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 591, in initialize
+    await self.get_me()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 1706, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 381, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 736, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 469, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_extbot.py", line 325, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\_bot.py", line 497, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 291, in _request_wrapper
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_baserequest.py", line 277, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\request\_httpxrequest.py", line 240, in do_request
+    raise NetworkError(f"httpx.{err.__class__.__name__}: {err}") from err
+telegram.error.NetworkError: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-08-04 01:45:08,846 [ERROR] ❌ Failed to notify developer: httpx.ConnectError: [Errno 11001] getaddrinfo failed
+2025-08-04 01:46:49,089 [ERROR] ❌ Failed to launch Agron: [WinError 740] The requested operation requires elevation
+2025-08-04 01:46:49,092 [ERROR] ❌ Error while processing ID '383920106' for issaknife (ID: 5962330651): [WinError 740] The requested operation requires elevation
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 74, in run_agron_and_capture
+    subprocess.Popen(exe_path, cwd=agr_path)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1022, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1491, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 740] The requested operation requires elevation
+2025-08-04 01:46:56,473 [ERROR] ❌ Failed to launch Agron: [WinError 740] The requested operation requires elevation
+2025-08-04 01:46:56,501 [ERROR] ❌ Error while processing ID '383839296' for issaknife (ID: 5962330651): [WinError 740] The requested operation requires elevation
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 74, in run_agron_and_capture
+    subprocess.Popen(exe_path, cwd=agr_path)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1022, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1491, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 740] The requested operation requires elevation
+2025-08-04 01:47:05,327 [ERROR] ❌ Failed to launch Agron: [WinError 740] The requested operation requires elevation
+2025-08-04 01:47:05,329 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): [WinError 740] The requested operation requires elevation
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 74, in run_agron_and_capture
+    subprocess.Popen(exe_path, cwd=agr_path)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1022, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1491, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 740] The requested operation requires elevation
+2025-08-04 01:47:09,285 [ERROR] ❌ Error while processing ID '12340472' for issaknife (ID: 5962330651): ❌ Invalid ID number. Must be 9 digits.
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 65, in run_agron_and_capture
+    raise ValueError("❌ Invalid ID number. Must be 9 digits.")
+ValueError: ❌ Invalid ID number. Must be 9 digits.
+2025-08-04 01:47:28,618 [ERROR] ❌ Failed to launch Agron: [WinError 740] The requested operation requires elevation
+2025-08-04 01:47:28,618 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): [WinError 740] The requested operation requires elevation
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 74, in run_agron_and_capture
+    subprocess.Popen(exe_path, cwd=agr_path)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1022, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1491, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 740] The requested operation requires elevation
+2025-08-04 01:49:45,029 [ERROR] ❌ Error while processing ID '12926280' for issaknife (ID: 5962330651): ❌ Invalid ID number. Must be 9 digits.
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 65, in run_agron_and_capture
+    raise ValueError("❌ Invalid ID number. Must be 9 digits.")
+ValueError: ❌ Invalid ID number. Must be 9 digits.
+2025-08-04 18:25:42,872 [ERROR] ❌ Unexpected error occurred in main()
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 100, in main
+    app.run_polling(on_startup=startup)
+TypeError: Application.run_polling() got an unexpected keyword argument 'on_startup'
+2025-08-04 18:28:53,508 [ERROR] ❌ Failed to launch Agron: [WinError 740] The requested operation requires elevation
+2025-08-04 18:28:53,508 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): [WinError 740] The requested operation requires elevation
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 188, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 88, in run_agron_and_capture
+    subprocess.Popen(exe_path, cwd=agr_path)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1022, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1491, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 740] The requested operation requires elevation
+2025-08-04 18:29:00,839 [ERROR] ❌ Failed to launch Agron: [WinError 740] The requested operation requires elevation
+2025-08-04 18:29:00,852 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): [WinError 740] The requested operation requires elevation
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 188, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 88, in run_agron_and_capture
+    subprocess.Popen(exe_path, cwd=agr_path)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1022, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1491, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 740] The requested operation requires elevation
+2025-08-04 18:29:29,878 [ERROR] ❌ Error while processing ID '12345678' for issaknife (ID: 5962330651): ❌ Invalid ID number. Must be 9 digits.
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 76, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 188, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 79, in run_agron_and_capture
+    raise ValueError("❌ Invalid ID number. Must be 9 digits.")
+ValueError: ❌ Invalid ID number. Must be 9 digits.
+2025-08-04 18:30:34,207 [ERROR] ❌ Failed to send result to user
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 34, in send_result_to_user
+    raise FileNotFoundError("❌ PDF result file not found.")
+FileNotFoundError: ❌ PDF result file not found.
+2025-08-04 18:31:22,701 [ERROR] ❌ Failed to send result to user
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 34, in send_result_to_user
+    raise FileNotFoundError("❌ PDF result file not found.")
+FileNotFoundError: ❌ PDF result file not found.
+2025-08-04 18:34:16,764 [ERROR] ❌ Failed to send result to user
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 34, in send_result_to_user
+    raise FileNotFoundError("❌ PDF result file not found.")
+FileNotFoundError: ❌ PDF result file not found.
+2025-08-04 18:52:59,633 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): The confidence keyword argument is only available if OpenCV is installed.
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 191, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 130, in run_agron_and_capture
+    button_location = wait_for_image("filter_button.png", timeout=30)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 37, in wait_for_image
+    location = pyautogui.locateOnScreen(image_path, confidence=confidence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 273, in _locateAll_pillow
+    raise NotImplementedError('The confidence keyword argument is only available if OpenCV is installed.')
+NotImplementedError: The confidence keyword argument is only available if OpenCV is installed.
+2025-08-04 18:55:22,116 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): Failed to read filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 191, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 130, in run_agron_and_capture
+    button_location = wait_for_image("filter_button.png", timeout=30)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 37, in wait_for_image
+    location = pyautogui.locateOnScreen(image_path, confidence=confidence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 193, in _load_cv2
+    raise IOError(
+OSError: Failed to read filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+2025-08-04 18:56:55,008 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): Failed to read filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 191, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 130, in run_agron_and_capture
+    button_location = wait_for_image("filter_button.png", timeout=30)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 37, in wait_for_image
+    location = pyautogui.locateOnScreen(image_path, confidence=confidence)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 193, in _load_cv2
+    raise IOError(
+OSError: Failed to read filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+2025-08-04 19:02:52,212 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): Failed to read filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 191, in run_agron_and_capture_with_cancel_support
+    }
+     
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 130, in run_agron_and_capture
+    try:
+        
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 37, in wait_for_image
+    """Wait until an image appears on the screen or timeout"""
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 193, in _load_cv2
+    raise IOError(
+OSError: Failed to read filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+2025-08-04 19:07:09,392 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): needle dimension(s) exceed the haystack image or region dimensions
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 209, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture
+    button_location = wait_for_image(FILTER_BUTTON_PATH, timeout=30, region=region)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 49, in wait_for_image
+    location = pyautogui.locateOnScreen(needle, confidence=confidence, region=region)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 241, in _locateAll_opencv
+    raise ValueError('needle dimension(s) exceed the haystack image or region dimensions')
+ValueError: needle dimension(s) exceed the haystack image or region dimensions
+2025-08-04 19:07:45,311 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): needle dimension(s) exceed the haystack image or region dimensions
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 209, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 148, in run_agron_and_capture
+    button_location = wait_for_image(FILTER_BUTTON_PATH, timeout=30, region=region)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 49, in wait_for_image
+    location = pyautogui.locateOnScreen(needle, confidence=confidence, region=region)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 241, in _locateAll_opencv
+    raise ValueError('needle dimension(s) exceed the haystack image or region dimensions')
+ValueError: needle dimension(s) exceed the haystack image or region dimensions
+2025-08-04 19:09:37,209 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): needle dimension(s) exceed the haystack image or region dimensions
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 219, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 158, in run_agron_and_capture
+    button_location = wait_for_image(FILTER_BUTTON_PATH, timeout=30, region=region)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 59, in wait_for_image
+    location = pyautogui.locateOnScreen(needle, confidence=confidence, region=region)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 241, in _locateAll_opencv
+    raise ValueError('needle dimension(s) exceed the haystack image or region dimensions')
+ValueError: needle dimension(s) exceed the haystack image or region dimensions
+2025-08-04 19:14:23,626 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): ❌ Button 'סינון...' not found in 'אגרון פלוס 2006' within 30 seconds.
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 196, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 137, in run_agron_and_capture
+    filter_button = wait_for_button("אגרון פלוס 2006", "סינון...", timeout=30)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 51, in wait_for_button
+    raise RuntimeError(f"❌ Button '{button_text}' not found in '{window_title}' within {timeout} seconds.")
+RuntimeError: ❌ Button 'סינון...' not found in 'אגרון פלוס 2006' within 30 seconds.
+2025-08-04 19:20:01,773 [ERROR] ❌ Error while processing ID '207488604' for issaknife (ID: 5962330651): Failed to read C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 206, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 145, in run_agron_and_capture
+    button_location = wait_for_image_in_window(FILTER_BUTTON_PATH, main_window, timeout=30)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 48, in wait_for_image_in_window
+    location = pyautogui.locateOnScreen(image_path, confidence=confidence, region=region)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 172, in wrapper
+    return wrappedFunction(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyautogui\__init__.py", line 210, in locateOnScreen
+    return pyscreeze.locateOnScreen(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 405, in locateOnScreen
+    retVal = locate(image, screenshotIm, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 383, in locate
+    points = tuple(locateAll(needleImage, haystackImage, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 231, in _locateAll_opencv
+    needleImage = _load_cv2(needleImage, grayscale)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyscreeze\__init__.py", line 193, in _load_cv2
+    raise IOError(
+OSError: Failed to read C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\filter_button.png because file is missing, has improper permissions, or is an unsupported or invalid format
+2025-08-04 19:55:51,820 [ERROR] ❌ Failed to launch Agron: [WinError 740] The requested operation requires elevation
+2025-08-04 19:55:51,821 [ERROR] ❌ Error while processing ID '207388604' for issaknife (ID: 5962330651): [WinError 740] The requested operation requires elevation
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py", line 87, in worker
+    result, was_cancelled = await loop.run_in_executor(
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 177, in run_agron_and_capture_with_cancel_support
+    result = run_agron_and_capture(id_number, user_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\core\executor.py", line 88, in run_agron_and_capture
+    subprocess.Popen(exe_path, cwd=agr_path)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1022, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\subprocess.py", line 1491, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 740] The requested operation requires elevation
+2025-08-04 20:22:48,829 [ERROR] ❌ Unexpected error occurred in main()
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 101, in main
+    enable_telegram_logging(app.bot, app.bot.loop)
+                                     ^^^^^^^^^^^^
+AttributeError: 'ExtBot' object has no attribute 'loop'
+2025-08-04 20:26:28,549 [ERROR] ❌ Unexpected error occurred in main()
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 130, in main
+    app.run_polling()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 727, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 921, in __run
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 912, in __run
+    loop.run_until_complete(self.post_init(self))
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 650, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 80, in startup
+    enable_telegram_logging(app.bot, app.application.loop, int(os.getenv("DEVELOPER_ID")))
+                                     ^^^^^^^^^^^^^^^
+AttributeError: 'Application' object has no attribute 'application'
+2025-08-04 20:26:28,561 [ERROR] ❌ Failed to notify developer: Unknown error in HTTP implementation: RuntimeError('This HTTPXRequest is not initialized!')
+2025-08-04 20:27:53,319 [ERROR] ❌ Unexpected error occurred in main()
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 131, in main
+    app.run_polling()
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 727, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 921, in __run
+    raise exc
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_application.py", line 912, in __run
+    loop.run_until_complete(self.post_init(self))
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 650, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\main.py", line 80, in startup
+    enable_telegram_logging(app.bot, app._loop, int(os.getenv("DEVELOPER_ID")))
+                                     ^^^^^^^^^
+AttributeError: 'Application' object has no attribute '_loop'
+2025-08-04 20:27:53,324 [ERROR] ❌ Failed to notify developer: Unknown error in HTTP implementation: RuntimeError('This HTTPXRequest is not initialized!')

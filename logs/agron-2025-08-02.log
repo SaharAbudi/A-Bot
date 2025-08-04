@@ -1,0 +1,500 @@
+2025-08-02 23:06:40,327 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-02 23:06:40,327 [INFO] 🤖 Agron Bot is running...
+2025-08-02 23:06:40,705 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getMe "HTTP/1.1 200 OK"
+2025-08-02 23:06:40,788 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-02 23:06:40,792 [INFO] Added job "<lambda>" to job store "default"
+2025-08-02 23:06:40,793 [INFO] Scheduler started
+2025-08-02 23:06:40,823 [INFO] Application started
+2025-08-02 23:06:40,825 [INFO] Removed job e889f489a15b4c05bb583f3b1b492b7b
+2025-08-02 23:06:40,829 [INFO] Running job "<lambda> (trigger: date[2025-08-02 20:06:40 UTC], next run at: 2025-08-02 20:06:40 UTC)" (scheduled at 2025-08-02 20:06:40.253785+00:00)
+2025-08-02 23:06:51,095 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:07:01,104 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:07:01,113 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-02 23:07:01,404 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:07:01,415 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:07:01,423 [INFO] 📥 Added ID '207388604' to queue from issaknife (ID: 5962330651)
+2025-08-02 23:07:11,217 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:07:21,447 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:07:31,542 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:07:34,858 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendPhoto "HTTP/1.1 200 OK"
+2025-08-02 23:07:35,109 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:07:35,109 [INFO] ✅ Successfully processed ID '207388604' for issaknife (ID: 5962330651)
+2025-08-02 23:07:41,623 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:07:51,713 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:08:01,805 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:08:11,894 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:08:21,973 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:08:32,142 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:08:42,224 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:08:52,304 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:09:02,402 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:09:12,491 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:09:22,597 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:09:32,813 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:09:42,903 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:09:52,985 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:09:53,116 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:09:53,398 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:09:53,400 [WARNING] ❌ Invalid ID received from issaknife (ID: 5962330651): '38622031'
+2025-08-02 23:10:03,205 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:10:05,221 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:10:05,487 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:10:05,487 [WARNING] ❌ Invalid ID received from issaknife (ID: 5962330651): '38622031'
+2025-08-02 23:10:15,324 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:10:25,403 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:10:35,490 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:10:45,579 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:10:55,660 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:11:05,780 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:11:15,866 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:11:26,048 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:11:36,131 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:11:41,059 [INFO] Application is stopping. This might take a moment.
+2025-08-02 23:11:54,756 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-11' coro=<worker() running at C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py:8> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[Task.task_wakeup()]>
+2025-08-02 23:11:54,756 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-10' coro=<Job._run() running at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_jobqueue.py:777> wait_for=<Task pending name='Task-11' coro=<worker() done, defined at C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py:6> wait_for=<Future cancelled> cb=[Task.task_wakeup()]> cb=[shield.<locals>._inner_done_callback() at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:881]>
+2025-08-02 23:11:54,756 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-9' coro=<run_coroutine_job() running at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\apscheduler\executors\base_py3.py:29> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:898, Task.task_wakeup()]> cb=[AsyncIOExecutor._do_submit_job.<locals>.callback() at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\apscheduler\executors\asyncio.py:39, gather.<locals>._done_callback() at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754]>
+2025-08-02 23:12:05,591 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-02 23:12:05,591 [INFO] 🤖 Agron Bot is running...
+2025-08-02 23:12:05,923 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getMe "HTTP/1.1 200 OK"
+2025-08-02 23:12:06,016 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-02 23:12:06,018 [INFO] Added job "<lambda>" to job store "default"
+2025-08-02 23:12:06,019 [INFO] Scheduler started
+2025-08-02 23:12:06,019 [INFO] Application started
+2025-08-02 23:12:06,019 [INFO] Removed job dc4bd5a0ca474b108857b458b57b0c6f
+2025-08-02 23:12:06,020 [INFO] Running job "<lambda> (trigger: date[2025-08-02 20:12:05 UTC], next run at: 2025-08-02 20:12:05 UTC)" (scheduled at 2025-08-02 20:12:05.529865+00:00)
+2025-08-02 23:12:16,279 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:12:20,265 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:12:20,269 [INFO] 🔄 Started processing ID '38622031' from issaknife (ID: 5962330651)
+2025-08-02 23:12:20,534 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:12:20,565 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:12:20,570 [INFO] 📥 Added ID '38622031' to queue from issaknife (ID: 5962330651)
+2025-08-02 23:12:30,354 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:12:40,453 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:12:50,586 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:12:54,245 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendPhoto "HTTP/1.1 200 OK"
+2025-08-02 23:12:54,595 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:12:54,595 [INFO] ✅ Successfully processed ID '38622031' for issaknife (ID: 5962330651)
+2025-08-02 23:13:00,728 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:13:10,813 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:13:20,938 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:13:31,020 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:13:41,106 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:13:51,191 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:14:01,273 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:14:11,388 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:14:21,473 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:14:31,556 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:14:41,647 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:14:51,743 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:15:01,840 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:15:11,931 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:15:22,014 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:15:32,098 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:15:42,183 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:15:52,273 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:16:02,361 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:16:12,447 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:16:22,525 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:16:32,613 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:16:42,687 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:16:52,790 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:17:02,885 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:17:12,969 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:17:14,706 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:17:14,712 [INFO] 🔄 Started processing ID '42412700' from issaknife (ID: 5962330651)
+2025-08-02 23:17:15,078 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:17:15,138 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:17:15,141 [INFO] 📥 Added ID '42412700' to queue from issaknife (ID: 5962330651)
+2025-08-02 23:17:24,820 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:17:34,933 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:17:45,015 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:17:48,116 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendPhoto "HTTP/1.1 200 OK"
+2025-08-02 23:17:48,264 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:17:48,264 [INFO] ✅ Successfully processed ID '42412700' for issaknife (ID: 5962330651)
+2025-08-02 23:17:55,106 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:18:05,198 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:18:15,305 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:18:25,384 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:18:35,492 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:18:45,592 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:18:55,698 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:19:05,787 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:19:16,089 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:19:26,175 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:19:36,273 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:19:46,372 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:19:56,465 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:20:06,556 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:20:16,643 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:20:26,723 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:20:36,850 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:20:46,933 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:20:57,024 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:21:07,117 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:21:17,203 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:21:27,294 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:21:37,376 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:21:47,464 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:21:57,551 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:22:07,641 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:22:17,723 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:22:27,811 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:22:37,897 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:22:47,984 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:22:58,069 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:23:08,145 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:23:18,260 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:23:28,368 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:23:38,443 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:23:48,571 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:23:58,656 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:24:08,734 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:24:18,823 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:24:28,914 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:24:38,989 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:24:49,081 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:24:56,410 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:24:56,708 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:24:56,708 [WARNING] ❌ Invalid ID received from issaknife (ID: 5962330651): 'Holds'
+2025-08-02 23:25:06,511 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:25:16,591 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:25:26,685 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:25:36,797 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:25:46,935 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:25:57,021 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:26:07,113 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:26:17,207 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:26:27,298 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:26:37,387 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:26:47,473 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:26:57,554 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:27:07,649 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:27:17,732 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:27:27,819 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:27:34,959 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:27:34,974 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-02 23:27:35,311 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:27:35,314 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:27:35,316 [INFO] 📥 Added ID '207388604' to queue from issaknife (ID: 5962330651)
+2025-08-02 23:27:45,063 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:27:55,148 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:28:05,235 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:28:08,474 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendPhoto "HTTP/1.1 200 OK"
+2025-08-02 23:28:08,734 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:28:08,736 [INFO] ✅ Successfully processed ID '207388604' for issaknife (ID: 5962330651)
+2025-08-02 23:28:15,323 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:28:25,402 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:28:35,484 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:28:45,839 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:28:55,923 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:29:05,805 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:29:05,815 [INFO] 🔄 Started processing ID '12345678' from issaknife (ID: 5962330651)
+2025-08-02 23:29:06,095 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:29:06,132 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:29:06,136 [INFO] 📥 Added ID '12345678' to queue from issaknife (ID: 5962330651)
+2025-08-02 23:29:15,906 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:29:26,012 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:29:36,109 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:29:39,161 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendPhoto "HTTP/1.1 200 OK"
+2025-08-02 23:29:39,300 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:29:39,308 [INFO] ✅ Successfully processed ID '12345678' for issaknife (ID: 5962330651)
+2025-08-02 23:29:46,199 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:29:56,294 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:29:58,057 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:29:58,062 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-02 23:29:58,350 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:29:58,350 [INFO] 📥 Added ID '207388604' to queue from issaknife (ID: 5962330651)
+2025-08-02 23:29:58,373 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:30:08,158 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:30:18,249 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:30:28,336 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:30:32,639 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendPhoto "HTTP/1.1 200 OK"
+2025-08-02 23:30:32,866 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:30:32,866 [INFO] ✅ Successfully processed ID '207388604' for issaknife (ID: 5962330651)
+2025-08-02 23:30:38,423 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:30:48,523 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:30:58,622 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:31:08,705 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:31:18,794 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:31:28,878 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:31:38,963 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:31:49,048 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:31:59,134 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:32:09,214 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:32:19,412 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:32:29,501 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:32:39,585 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:32:49,673 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:32:59,756 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:33:09,849 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:33:20,001 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:33:30,224 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:33:40,432 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:33:50,754 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:34:00,831 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:34:10,925 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:34:21,010 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:34:31,092 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:34:41,173 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:34:51,256 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:35:01,345 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:35:11,426 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:35:21,517 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:35:31,599 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:35:41,730 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:35:51,859 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:36:01,999 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:36:12,087 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:36:22,175 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:36:32,305 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:36:42,427 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:36:52,500 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:37:02,595 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:37:12,714 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:37:22,925 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:37:33,037 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:37:43,123 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:37:53,224 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:38:03,327 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:38:13,417 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:38:23,524 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:38:33,612 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:38:43,693 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:38:48,987 [INFO] Application is stopping. This might take a moment.
+2025-08-02 23:40:38,350 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-11' coro=<worker() running at C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py:8> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[Task.task_wakeup()]>
+2025-08-02 23:40:38,350 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-10' coro=<Job._run() running at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_jobqueue.py:777> wait_for=<Task pending name='Task-11' coro=<worker() done, defined at C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py:6> wait_for=<Future cancelled> cb=[Task.task_wakeup()]> cb=[shield.<locals>._inner_done_callback() at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:881]>
+2025-08-02 23:40:38,350 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-9' coro=<run_coroutine_job() running at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\apscheduler\executors\base_py3.py:29> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:898, Task.task_wakeup()]> cb=[AsyncIOExecutor._do_submit_job.<locals>.callback() at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\apscheduler\executors\asyncio.py:39, gather.<locals>._done_callback() at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754]>
+2025-08-02 23:40:46,046 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-02 23:40:46,046 [INFO] 🤖 Agron Bot is running...
+2025-08-02 23:40:46,869 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getMe "HTTP/1.1 200 OK"
+2025-08-02 23:40:46,948 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-02 23:40:46,952 [INFO] Added job "<lambda>" to job store "default"
+2025-08-02 23:40:46,952 [INFO] Scheduler started
+2025-08-02 23:40:46,953 [INFO] Application started
+2025-08-02 23:40:46,954 [INFO] Removed job f2fb4d3e1bea4257a2cb6a6ccf0d1394
+2025-08-02 23:40:46,956 [INFO] Running job "<lambda> (trigger: date[2025-08-02 20:40:45 UTC], next run at: 2025-08-02 20:40:45 UTC)" (scheduled at 2025-08-02 20:40:45.982946+00:00)
+2025-08-02 23:40:57,286 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:40:58,503 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:40:58,518 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-02 23:40:58,918 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:40:58,965 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:40:58,966 [INFO] 📥 Added ID '207388604' to queue from issaknife (ID: 5962330651) (position #1, est wait 15 seconds)
+2025-08-02 23:41:08,607 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:41:18,693 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:41:25,903 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:41:26,212 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:41:26,212 [WARNING] ❌ Invalid ID received from issaknife (ID: 5962330651): 'Cancel'
+2025-08-02 23:41:32,123 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendPhoto "HTTP/1.1 200 OK"
+2025-08-02 23:41:32,277 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:41:32,277 [INFO] ✅ Successfully processed ID '207388604' for issaknife (ID: 5962330651)
+2025-08-02 23:41:36,001 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:41:38,081 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:41:38,085 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-02 23:41:38,445 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:41:38,474 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:41:38,477 [INFO] 📥 Added ID '207388604' to queue from issaknife (ID: 5962330651) (position #1, est wait 15 seconds)
+2025-08-02 23:41:48,177 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:41:53,844 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:41:54,199 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:41:54,201 [INFO] 📥 Added ID '123456789' to queue from issaknife (ID: 5962330651) (position #1, est wait 15 seconds)
+2025-08-02 23:42:03,957 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:42:11,639 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendPhoto "HTTP/1.1 200 OK"
+2025-08-02 23:42:11,786 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:42:11,793 [INFO] ✅ Successfully processed ID '207388604' for issaknife (ID: 5962330651)
+2025-08-02 23:42:11,793 [INFO] 🔄 Started processing ID '123456789' from issaknife (ID: 5962330651)
+2025-08-02 23:42:11,907 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:42:14,073 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:42:24,166 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:42:34,295 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:42:44,408 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:42:45,471 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendPhoto "HTTP/1.1 200 OK"
+2025-08-02 23:42:45,616 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:42:45,620 [INFO] ✅ Successfully processed ID '123456789' for issaknife (ID: 5962330651)
+2025-08-02 23:42:54,567 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:43:04,773 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:43:14,860 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:43:24,964 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:43:35,053 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:45:47,770 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-02 23:45:47,770 [INFO] 🤖 Agron Bot is running...
+2025-08-02 23:45:50,013 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getMe "HTTP/1.1 200 OK"
+2025-08-02 23:45:50,540 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-02 23:45:50,542 [INFO] Added job "<lambda>" to job store "default"
+2025-08-02 23:45:50,542 [INFO] Scheduler started
+2025-08-02 23:45:50,543 [INFO] Application started
+2025-08-02 23:45:50,543 [INFO] Removed job 86a08ff8dece47588f9440e4f125edb1
+2025-08-02 23:45:50,544 [WARNING] Run time of job "<lambda> (trigger: date[2025-08-02 20:45:47 UTC], next run at: 2025-08-02 20:45:47 UTC)" was missed by 0:00:02.856098
+2025-08-02 23:46:01,620 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:46:03,035 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:46:05,486 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:46:05,487 [INFO] 👋 /start used by issaknife (ID: 5962330651)
+2025-08-02 23:46:06,105 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:46:06,377 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:46:06,379 [INFO] 📊 /status: issaknife (ID: 5962330651) is not in the queue.
+2025-08-02 23:46:14,538 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:46:16,201 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:46:16,202 [INFO] 🗑️ /cancel: issaknife (ID: 5962330651) had no active requests.
+2025-08-02 23:46:20,734 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:46:21,342 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:46:21,344 [INFO] 📥 Added ID '207388604' to queue from issaknife (ID: 5962330651) (position #1, est wait 15 seconds)
+2025-08-02 23:46:31,358 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:46:41,722 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:46:49,972 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:46:50,312 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:46:50,314 [INFO] 📊 /status: issaknife (ID: 5962330651) is #1 in queue (15 seconds)
+2025-08-02 23:47:00,422 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:47:00,651 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:47:04,302 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:47:04,302 [INFO] 🗑️ /cancel: Removed request from issaknife (ID: 5962330651) (was position #1)
+2025-08-02 23:47:10,773 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:47:11,144 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:47:11,582 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:47:11,585 [INFO] 📥 Added ID '207388604' to queue from issaknife (ID: 5962330651) (position #1, est wait 15 seconds)
+2025-08-02 23:47:21,772 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:47:31,875 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:47:42,022 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:48:07,363 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-02 23:48:07,365 [INFO] 🤖 Agron Bot is running...
+2025-08-02 23:48:15,295 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getMe "HTTP/1.1 200 OK"
+2025-08-02 23:48:16,969 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-02 23:48:16,969 [INFO] Added job "<lambda>" to job store "default"
+2025-08-02 23:48:16,972 [INFO] Scheduler started
+2025-08-02 23:48:16,972 [INFO] Application started
+2025-08-02 23:48:16,973 [INFO] Removed job 767c2b8a32ca4283abd97eef943a4940
+2025-08-02 23:48:16,973 [WARNING] Run time of job "<lambda> (trigger: date[2025-08-02 20:48:07 UTC], next run at: 2025-08-02 20:48:07 UTC)" was missed by 0:00:09.826883
+2025-08-02 23:48:19,963 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:48:20,926 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:48:20,933 [INFO] 📥 Added ID '207388604' to queue from issaknife (ID: 5962330651) (position #1, est wait 15 seconds)
+2025-08-02 23:48:30,769 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:48:40,859 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:48:50,947 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:49:01,045 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:49:11,154 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:49:21,239 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:49:31,399 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:49:41,481 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:49:51,564 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:50:01,677 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:50:11,770 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:50:21,856 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:50:31,946 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:50:42,525 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:50:52,629 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:50:55,658 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:50:56,170 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:50:56,172 [INFO] 📥 Added ID '207388604' to queue from issaknife (ID: 5962330651) (position #2, est wait 30 seconds)
+2025-08-02 23:51:05,745 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:51:15,848 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:51:25,925 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:51:35,937 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:51:36,509 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:51:36,518 [INFO] 🗑️ /cancel: Removed request from issaknife (ID: 5962330651) (was position #1)
+2025-08-02 23:51:42,165 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:51:42,473 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:51:42,473 [INFO] 🗑️ /cancel: Removed request from issaknife (ID: 5962330651) (was position #1)
+2025-08-02 23:51:46,834 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:51:46,940 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:51:46,955 [INFO] 📥 Added ID '207388694' to queue from issaknife (ID: 5962330651) (position #1, est wait 15 seconds)
+2025-08-02 23:51:56,925 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:52:07,007 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:52:17,088 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:52:27,209 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:52:35,997 [INFO] Application is stopping. This might take a moment.
+2025-08-02 23:52:36,004 [INFO] Scheduler has been shut down
+2025-08-02 23:52:36,004 [INFO] Application.stop() complete
+2025-08-02 23:57:39,849 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-02 23:57:39,859 [INFO] ✅ Agron executable launched.
+2025-08-02 23:57:43,113 [INFO] 🔑 License entered.
+2025-08-02 23:57:58,251 [INFO] 🔎 Clicked on Filter.
+2025-08-02 23:58:02,383 [INFO] 🔍 Entered ID: 207388604 and executed filter.
+2025-08-02 23:58:05,510 [INFO] 🖱️ Double-clicked result.
+2025-08-02 23:58:07,705 [INFO] 📸 Screenshot saved to: result_207388604.png
+2025-08-02 23:58:09,316 [INFO] ❌ Closed window 1/3
+2025-08-02 23:58:10,938 [INFO] ❌ Closed window 2/3
+2025-08-02 23:58:12,552 [INFO] ❌ Closed window 3/3
+2025-08-02 23:58:54,183 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-08-02 23:58:54,183 [INFO] 🤖 Agron Bot is running...
+2025-08-02 23:58:54,601 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getMe "HTTP/1.1 200 OK"
+2025-08-02 23:58:54,689 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-02 23:58:54,690 [INFO] Added job "<lambda>" to job store "default"
+2025-08-02 23:58:54,690 [INFO] Scheduler started
+2025-08-02 23:58:54,691 [INFO] Application started
+2025-08-02 23:58:54,692 [INFO] Removed job e94c56235e514469b00439f6e827145d
+2025-08-02 23:58:54,692 [INFO] Running job "<lambda> (trigger: date[2025-08-02 20:58:54 UTC], next run at: 2025-08-02 20:58:54 UTC)" (scheduled at 2025-08-02 20:58:54.123570+00:00)
+2025-08-02 23:59:03,453 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:59:03,459 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-02 23:59:03,802 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:59:03,804 [INFO] 📥 Added ID '207388604' to queue from issaknife (ID: 5962330651) (position #1, est wait 15 seconds)
+2025-08-02 23:59:03,805 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:59:03,809 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-02 23:59:03,823 [INFO] ✅ Agron executable launched.
+2025-08-02 23:59:07,077 [INFO] 🔑 License entered.
+2025-08-02 23:59:13,253 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:59:13,519 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:59:13,523 [INFO] 🗑️ /cancel: issaknife (ID: 5962330651) had no active requests.
+2025-08-02 23:59:22,183 [INFO] 🔎 Clicked on Filter.
+2025-08-02 23:59:23,339 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:59:23,715 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:59:24,039 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:59:24,039 [INFO] 📥 Added ID '207388604' to queue from issaknife (ID: 5962330651) (position #1, est wait 15 seconds)
+2025-08-02 23:59:26,316 [INFO] 🔍 Entered ID: 207388604 and executed filter.
+2025-08-02 23:59:29,433 [INFO] 🖱️ Double-clicked result.
+2025-08-02 23:59:31,530 [INFO] 📸 Screenshot saved to: result_207388604.png
+2025-08-02 23:59:33,135 [INFO] ❌ Closed window 1/3
+2025-08-02 23:59:33,824 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:59:34,738 [INFO] ❌ Closed window 2/3
+2025-08-02 23:59:36,342 [INFO] ❌ Closed window 3/3
+2025-08-02 23:59:36,974 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendPhoto "HTTP/1.1 200 OK"
+2025-08-02 23:59:37,109 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:59:37,113 [INFO] ✅ Successfully processed ID '207388604' for issaknife (ID: 5962330651)
+2025-08-02 23:59:37,113 [INFO] 🔄 Started processing ID '207388604' from issaknife (ID: 5962330651)
+2025-08-02 23:59:37,235 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-02 23:59:37,235 [INFO] ▶️ Running Agron for ID: 207388604
+2025-08-02 23:59:37,271 [INFO] ✅ Agron executable launched.
+2025-08-02 23:59:40,531 [INFO] 🔑 License entered.
+2025-08-02 23:59:43,922 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:59:54,014 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-02 23:59:55,698 [INFO] 🔎 Clicked on Filter.
+2025-08-02 23:59:59,854 [INFO] 🔍 Entered ID: 207388604 and executed filter.
+2025-08-03 00:00:03,004 [INFO] 🖱️ Double-clicked result.
+2025-08-03 00:00:04,109 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:00:05,143 [INFO] 📸 Screenshot saved to: result_207388604.png
+2025-08-03 00:00:06,752 [INFO] ❌ Closed window 1/3
+2025-08-03 00:00:08,355 [INFO] ❌ Closed window 2/3
+2025-08-03 00:00:09,959 [INFO] ❌ Closed window 3/3
+2025-08-03 00:00:10,878 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendPhoto "HTTP/1.1 200 OK"
+2025-08-03 00:00:11,259 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/sendMessage "HTTP/1.1 200 OK"
+2025-08-03 00:00:11,261 [INFO] ✅ Successfully processed ID '207388604' for issaknife (ID: 5962330651)
+2025-08-03 00:00:14,378 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:00:24,534 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:00:34,618 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:00:44,703 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:00:54,785 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:01:04,899 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:01:14,997 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:01:25,091 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:01:35,186 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:01:45,273 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:01:55,364 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:02:05,486 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:02:15,568 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:02:25,691 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:02:35,777 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:02:45,881 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:02:55,977 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:03:06,085 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:03:16,171 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:03:26,278 [INFO] HTTP Request: POST https://api.telegram.org/bot8425112897:AAGvL4iCGqkKLXqXI40q2P1VtYWhjkN0GPk/getUpdates "HTTP/1.1 200 OK"
+2025-08-03 00:03:36,086 [INFO] Application is stopping. This might take a moment.
+2025-08-03 00:04:08,700 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-11' coro=<worker() running at C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py:8> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[Task.task_wakeup()]>
+2025-08-03 00:04:08,700 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-10' coro=<Job._run() running at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\telegram\ext\_jobqueue.py:777> wait_for=<Task pending name='Task-11' coro=<worker() done, defined at C:\Users\USER\Desktop\אגרון\agron-bot\agron_bot\worker.py:6> wait_for=<Future cancelled> cb=[Task.task_wakeup()]> cb=[shield.<locals>._inner_done_callback() at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:881]>
+2025-08-03 00:04:08,705 [ERROR] Task was destroyed but it is pending!
+task: <Task pending name='Task-9' coro=<run_coroutine_job() running at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\apscheduler\executors\base_py3.py:29> wait_for=<Future pending cb=[shield.<locals>._outer_done_callback() at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:898, Task.task_wakeup()]> cb=[AsyncIOExecutor._do_submit_job.<locals>.callback() at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\site-packages\apscheduler\executors\asyncio.py:39, gather.<locals>._done_callback() at C:\Users\USER\AppData\Local\Programs\Python\Python311\Lib\asyncio\tasks.py:754]>
